@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.docx
+*.log
+feedback/
+other/
+README.html
+LICENSE.html
+application.pdf
+appendices.pdf
+summary.pdf
