@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+*.RData
 *.Rproj
 *.docx
 *.log
