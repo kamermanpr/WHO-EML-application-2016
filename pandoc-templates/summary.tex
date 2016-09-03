@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+%%% Fonts
+\usepackage{fontspec}
+\setmainfont{Helvetica}
+\usepackage{everysel} % required by ragged2e
+%%% Paper size
+\usepackage[a4paper,top=20mm,bottom=25mm,left=15mm,right=15mm,headheight=25mm]{geometry}
+%%% Paragraphing and layout
+\usepackage{ragged2e}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1.2em}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\usepackage{pdfpages}
+%%% Links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=blue,
+}
+
+%%% Headers and footnotes
+\usepackage{lastpage} % required for Page of Page format for footer
+\usepackage[hang,ragged]{footmisc} % provides hanging indent for multi-line footnotes
+\interfootnotelinepenalty=100000 % stop footnotes being split over pages
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+	\fancyhf{} % Clear formatting
+	\fancyhead[C]{}
+	\fancyhead[R]{\textbf{EXECUTIVE SUMMARY}}
+	\fancyhead[L]{}
+	\fancyfoot[C]{}
+	\fancyfoot[R]{\scriptsize{Page \thepage\ of \pageref*{LastPage}}}
+	\fancyfoot[L]{\scriptsize{\textbf{For additional information, please contact:} Matthew R D'Uva (Executive Director)\\ International Association for the Study of Pain\\ 1510 H Street N.W., Suite 600, Washington, D.C. 20005-1020\\ \textit{Email:} \href{mailto:matthew.duva@iasp-pain.org}{matthew.duva@iasp-pain.org}, \textit{Tel:} +1-202-524-5300, \textit{Fax:} +1-202-524-5301, \textit{www:} \href{www.iasp-pain.org}{iasp-pain.org}}}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0.4pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+\large{\textbf{Gabapentin for Neuropathic Pain}}\\
+\vspace{2mm}
+\large{\textit{An application to the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines}}\\
+\vspace{2mm}
+\small{\textbf{Proposed by}}\\
+\small{International Association for the Study of Pain (IASP)\\ International Association for Hospice and Palliative Care (IAHPC)}
+\end{center}
+
+\begin{FlushLeft} % Use ragged right edge
+
+$body$
+
+\end{FlushLeft}
+
+\end{document}

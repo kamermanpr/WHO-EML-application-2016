@@ -1,0 +1,142 @@
+\documentclass[11pt]{article}
+%%% Fonts
+\usepackage{fontspec}
+\setmainfont{Helvetica}
+\usepackage{everysel} % required by ragged2e
+\usepackage{amsfonts} % for double-struck S symbol
+%%% Paper size
+\usepackage[a4paper,margin=25mm]{geometry}
+%%% Paragraphing and layout
+\usepackage{ragged2e}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1.2em}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\usepackage{lscape} % for landscape tables
+\usepackage{pdfpages}
+\usepackage{needspace} % Reserves space for next item
+%%% Links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=blue,
+}
+\urlstyle{same}
+%%% Sections and TOC
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{4}
+\makeatletter % redefine section font settings
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-1em \@plus -0.2em \@minus -.2em}%
+                                   {1em \@plus 0.2em}%
+                                   {\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-1em\@plus -0.2em \@minus -.2em}%
+                                     {1em \@plus 0.2em}%
+                                     {\scshape\large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-1em\@plus -0.2em \@minus -.2em}%
+                                     {0.1em \@plus 0.2em}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                     {-1em\@plus -0.2em \@minus -.2em}%
+                                     {0.1em \@plus 0.2em}%
+                                     {\normalfont\normalsize\bfseries\itshape}}
+\makeatother
+%%% Bibliography
+\usepackage{biblatex}
+%%% Mathjax
+\usepackage{amsmath}
+%%% Graphics
+\usepackage{graphicx}
+\graphicspath{ {images/} } % set path to images subfolder
+%%% Tables
+\usepackage{colortbl} % to emphasise rows
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{caption} % ensure table captions are centered
+    \captionsetup{justification=centering}
+\usepackage{multirow} % required for multi-line rows
+\usepackage{array} % required for text wrapping and \newline in tables
+    \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % define left column in package array
+    \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % define left column in package array
+    \newcolumntype{C}[1]{>{\Center\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % define centerd column in package array
+%%% Headers and footnotes
+\usepackage{lastpage} % required for Page of Page format for footer
+\usepackage[hang,ragged]{footmisc} % provides hanging indent for multi-line footnotes
+\interfootnotelinepenalty=100000 % stop footnotes being split over pages
+\usepackage{fancyhdr}
+\pagestyle{fancy}{
+    \fancyhead[L]{}
+    \fancyhead[C]{}
+    \fancyhead[R]{\footnotesize GABAPENTIN FOR NEUROPATHIC PAIN}
+    \fancyfoot[L]{}
+    \fancyfoot[C]{}
+    \fancyfoot[R]{Page \thepage\ of \pageref*{LastPage}}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
+    }
+\providecommand{\tightlist}{ % fix for \tightlist problem
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%% Title page
+\thispagestyle{empty}
+
+\begin{center}
+\LARGE{\textbf{Gabapentin for Neuropathic Pain}}\\
+\vspace{10mm}
+\large{\textit{An application to the 21\textsuperscript{st} meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines}}\\
+
+\vspace{10mm}
+
+\normalsize{\textit{
+\textbf{Submitted by}\\
+International Association for the Study of Pain \href{http://www.iasp-pain.org}{(IASP)}\footnotemark
+\\ International Association of Hospice and Palliative Care \href{http://hospicecare.com/home/}{(IAHPC)}}}
+\rule{0.5\textwidth}{.4pt}
+\end{center}
+
+\footnotetext{\small{With the Neuropathic Pain Special Interest Group (NeuPSIG)}}
+
+\vspace{10mm}
+
+\begin{minipage}[t]{0.6\textwidth} % NB: no linebreak between first and second minipage for side-by-side layout
+\textbf{Authors}\\
+Peter R Kamerman (South Africa)\footnotemark \\
+Nanna B Finnerup (Denmark)\\
+Liliana De Lima (USA)\\
+Simon Haroutounian (USA)\\
+Srinivasa N Raja (USA)\\
+Andrew SC Rice (UK)\\
+Blair H Smith (UK)\\
+Rolf-Detlef Treede (Germany)
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{External reviewers}\\
+Michael I Bennett (UK)\\
+G Allen Finley (Canada)\\
+T\'{e}lesphore B Nguelefack (Cameroon)
+\end{minipage}
+
+\vspace{20mm}
+
+\footnotetext{\linespread{1}\small{\textbf{Contact address:} School of Physiology, Faculty of Health Sciences, University of the Witwatersrand, 7 York Road, Parktown, 2193, South Africa, \textit{Email:} \href{mailto:peter.kamerman@wits.ac.za}{peter.kamerman@wits.ac.za}, \textit{Tel:} +27 11 717 2363}}
+
+%%% TOC page
+\newpage
+
+\tableofcontents
+
+%%% Body
+\newpage
+\begin{FlushLeft} % Use ragged right edge
+
+$body$
+
+%%% Bibliography
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+
+\end{FlushLeft}
+\end{document}

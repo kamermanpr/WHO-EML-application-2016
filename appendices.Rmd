@@ -1,0 +1,98 @@
+---
+output:
+    pdf_document:
+        latex_engine: xelatex
+        template: './pandoc-templates/appendices.tex'
+        keep_tex: false
+---
+<!-- Title page -->
+\begin{titlepage}
+\begin{center}
+
+\LARGE{\textbf{Appendix 1}}
+\vspace{20mm}
+
+\large{\textbf{Organizations supporting the application}}\\
+\vspace{5mm}
+
+
+\textbf{Includes}\\
+\vspace{5mm}
+\textbf{Page count}\\
+
+\end{center}
+\end{titlepage}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+<!--\includepdf[pages=-]{./other/XXXXX.pdf}-->
+
+<!-- Title page -->
+\begin{titlepage}
+\begin{center}
+
+\LARGE{\textbf{Appendix 2}} \\
+\vspace{20mm}
+
+\large{Finnerup NB, Attal N, Haroutounian S, McNicol E, Baron R, Dworkin RH, Gilron I, Haanpää M, Hansson P, Jensen TS, Kamerman PR, Lund K, Moore A, Raja SN, Rice AS, Rowbotham M, Sena E, Siddall P, Smith BH, Wallace M}\\
+\vspace{5mm}
+
+\large{\textbf{Pharmacotherapy for neuropathic pain in adults:
+a systematic review and meta-analysis}}\\
+\vspace{5mm}
+
+\large{\textit{Lancet Neurology} \textbf{14}:162-173, 2015}\\
+\vspace{5mm}
+
+\large{DOI: \href{https://dx.doi.org/10.1016/S1474-4422(14)70251-0}{10.1016/S1474-4422(14)70251-0}}
+\vspace{30mm}
+
+\textbf{Supplementary data}\\
+All supplementary information for the systematic review and meta-analysis is available for download.\\
+\vspace{3mm}
+\href{https://dl.dropboxusercontent.com/u/11805474/neml/who-application-2016/finnerup2015-supp-data.pdf?dl=1}{\textit{Download link}}
+\end{center}
+\end{titlepage}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[pages=-]{./appendix-files/appendix-2-finnerup.pdf}
+
+<!-- Title page -->
+\begin{titlepage}
+\begin{center}
+
+\LARGE{\textbf{Appendix 3}} \\
+\vspace{20mm}
+
+\large{Kamerman PR, Wadley AL, Davis KD, Hietaharju A, Jain P, Kopf A, Meyer AC, Raja SN, Rice AS, Smith BH, Treede RD, Wiffen PJ}\\
+\vspace{5mm}
+
+\large{\textbf{World Health Organization essential medicines lists: where are the drugs to treat neuropathic pain?}}\\
+\vspace{5mm}
+
+\large{\textit{PAIN} \textbf{156}:793-797, 2015}\\
+\vspace{5mm}
+
+\large{DOI: \href{https://dx.doi.org/10.1097/01.j.pain.0000460356.94374.a1}{10.1097/01.j.pain.0000460356.94374.a1}}
+\vspace{30mm}
+
+\textbf{Supplementary data}\\
+All supplementary information, including data and analysis scripts, are available in a public GitHub repository.\\
+\vspace{3mm}
+\href{https://github.com/kamermanpr/who-neml}{\textit{Access repository}}
+
+\end{center}
+\end{titlepage}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[pages=-]{./appendix-files/appendix-3-kamerman.pdf}
+
+
