@@ -241,7 +241,7 @@ $CLCr = \dfrac{[140~-~age~(years)]~\times~weight~(kg)}{72~\times~serum~creatinin
 \end{tabular}
 \end{table}
 
-**Pregnancy:** Gabapentin is classified as _Pregnancy Category C_. There are no adequate and well-controlled studies in pregnant women. In pre-clinical studies in mice, rats, and rabbits, gabapentin was developmentally toxic when administered to pregnant animals at doses similar to or lower than those used clinically. Gabapentin should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.
+**Pregnancy:** Gabapentin is classified as _Pregnancy Category C_; use during pregnancy only if the potential benefit justifies the potential risk to the fetus. There are no adequate and well-controlled studies in pregnant women. In pre-clinical studies in mice, rats, and rabbits, gabapentin was developmentally toxic when administered to pregnant animals at doses similar to or lower than those used clinically. However, observational data indicates that the rate of fetal malfomations in women taking gabapentin is not greater than that reported in the general population [@Guttuso2014; @Fujii2013].
 
 **Nursing Mothers:** Gabapentin is secreted into human milk following oral administration, possibly exposing a nursed infant to a maximum dose of approximately 1 mg/kg/day of gabapentin. Because the effect on the nursing infant is unknown, gabapentin should be used in women who are nursing only if the benefits clearly outweigh the risks.
 
@@ -279,7 +279,17 @@ A lethal dose of gabapentin was not identified in mice and rats receiving single
 
 - Probenecid _(Probenecid is a blocker of renal tubular secretion, but did not alter gabapentin pharmacokinetic parameters, indicating that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.)_ 
 
-Of importance, there is no known interactions between gabapentin and agents recommended as first-line treatments of HIV infection in adults or children (lamivudine, abacavir, zidovudine, tenofovir, stavudine, lopinavir/ritonavir, darunavir, dolutegravir, efavirenz, emtricitabine, nevirapine) [@WHO2016]. Neither does gabapentin interact with first-line treatments for tuberculosis infection (isoniazid, rifampicin, streptomycin, ethambutol, pyrazinamide) [@WHO2010], nor treatments for diabetes mellitus (insulin, metformin, sulfonylureas) [@WHO2014]. 
+Of importance, there are no known interactions between gabapentin and agents recommended for the treatments of:
+
+- HIV infection in adults or children (lamivudine, abacavir, zidovudine, tenofovir, stavudine, lopinavir/ritonavir, darunavir, dolutegravir, efavirenz, emtricitabine, nevirapine) [@WHO2016]
+
+- tuberculosis infection (isoniazid, rifampicin, streptomycin, ethambutol, pyrazinamide) [@WHO2010], 
+
+- diabetes mellitus (insulin, metformin, sulfonylureas) [@WHO2014]. 
+
+- malaria (amodiaquine, artemether/lumefantrine, artesunate, dihydroartemisinin, meoquine, piperaquine, sulfadoxine–pyrimethamine) [@WHO2015c]
+
+- leprosy (clofazimine, dapsone, minocycline, ofloxacin, rifampicin) [@WHO1998]
 
 Interactions have been shown with the following medicines:
 
@@ -840,6 +850,8 @@ The results of the NICE cost-utility analysis, combined with similar efficacy an
 ## Summary of regulatory status of the medicine.
 
 Gabapentin has regulatory approval as a **prescription only medicine** from the following stringent regulatory bodies: US Federal Drug Administration (FDA), European Medicines Agency (EMA), Australian Therapeutic Goods Administration (TGA), Japanese Pharmaceuticals and Medical Devices Agency (PMDA), and Health Canada (see Table \ref{reg_approval} for registered neuropathic pain indications [^10]). None of these agencies have registered gabapentin as a controlled substance. 
+
+While gabapentin (and other medicines) have regulatory approval for the treatment of neuropathic pain, the International Classification of Diseases (ICD) revision 10 does not provide adequate coding for neuropathic pain [@Treede2015]. This deficiency in the ICD-10 hampers the collection of accurate epidemiological data on adverse reactions, as well as prescribing, dispensing, and billing informations related to the treatment of neuropathic pain. However, the revised ICD-11 coding system, which is currently in beta version [(ICD-11 Beta Draft)](http://apps.who.int/classifications/icd11/browse/l-m/en), specifically codifies neuropathic pain (8D62.1 Neuropathic pain), which will facilitate the collection of pertinent epidemiological data on treatments for neuropathic pain.
 
 ```{r reg_approval, results = 'asis'}
 
