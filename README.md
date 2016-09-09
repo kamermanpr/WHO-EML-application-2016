@@ -3,6 +3,11 @@
 ## About
 This repository contains all the files required to generate the application (and supporting documents) the International Association for the Study of Pain (IASP) and the International Association of Hospice and Palliative Care (IAHPC) made to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines (2017) for the inclusion of gabapentin on the WHO Model List of Essential Medicines for the treatment of neuropathic pain. 
 
+## Bibliometric information
+Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
+
+## Instructions 
+
 Follow the steps below to generate the application, appendices, and the executive summary.
 
 #### If you use Git/GitHub: 
@@ -31,14 +36,17 @@ Follow the steps below to generate the application, appendices, and the executiv
 ## The following set-up was used to generate all files
 - R version 3.2.4 (2016-03-10) running on RStudio v0.99.1243 for OSX
 - Packages used (inclusive of: _application.Rmd_, _appendices.Rmd_, _summary.Rmd_, and all other analysis scripts):
-    - ggplot2_2.1.0   
-    - scales_0.4.0
-    - gridExtra_2.2.1
-    - xtable_1.8-2
-    - pander_0.6.0
-    - readr_1.0.0
+    - ggplot2 2.1.0   
+    - scales 0.4.0
+    - gridExtra 2.2.1
+    - xtable 1.8-2
+    - pander 0.6.0
+    - readr 1.0.0
     - stringr_1.1.0
-    - readr_1.0.0       
-    - tidyr_0.6.0
-    - tibble_1.2        
-    - dplyr_0.5.0
+    - tidyr 0.6.0
+    - tibble 1.2        
+    - dplyr 0.5.0
+    
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines</span> by the <a href="http://www.iasp-pain.org" target="_blank">International Association for the Study of Pain (IASP)</a> and the <a href="http://hospicecare.com/home/" target="_blank">International Association of Hospice and Palliative Care (IAHPC)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
