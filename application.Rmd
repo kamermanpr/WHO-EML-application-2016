@@ -40,8 +40,8 @@ opts_chunk$set(echo = FALSE,
 
 ## Summary statement of the proposal for inclusion.
 
-We are applying for the _**inclusion of gabapentin as an analgesic agent for the management of neuropathic pain (central and peripheral) in adults**_. The medicine has regulatory approval for the treatment of several neuropathic pain states in adults by numerous stringent regulatory bodies (including the Food and Drug Administration [@NeurontinFDA2015] and European Medicines Agency [@NeurontinEMA2013]). Furthermore, all recent evidence-based treatment guidelines recommend gabapentin as one of the first-line agents for the pharmacological management of neuropathic pain of central or peripheral origin [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010]. A recent systematic review estimated the prevalence of neuropathic pain in the general, adult population to be between 7 and 10% [@VanHecke2014], equating to over 518 million prevalent cases of adults with neuropathic pain globally. And, in certain chronic diseases that already impose or are predicted to impose a high burden of disease in developing countries, such as HIV-AIDS, diabetes mellitus, leprosy, and low-back pain, the prevalence of neuropathic pain can be more than three times the population prevalence [@Sadosky2008; @Thakur2015; @Rice2016]. In addition, developing countries are disproportionally affected by acute traumatic injuries (e.g., conflict-related trauma, motor vehicle injuries) that may cause nerve damage [@Gosselin2009]. Having neuropathic pain has a major negative impact on health-related quality of life, and places a significant human and economic burden on health resources [@Doth2010; @Torrance2014]. Neuropathic pain is difficult to treat, and requires specific classes of medication for its management. Evidence-based recommendations include: tricyclic antidepressants (TCAs), $\alpha_{2}\delta$ calcium channel ligands (gabapentin and pregabalin), and serotonin and noradrenaline reuptake inhibitors (SNRIs, duloxetine and venlafaxine) as first-line agents. The number needed to treat (NNT) to achieve 50% pain relief relative to placebo for these effective medications ranges between 4 and 9 [amitriptyline: 4.3 (95% CI: 3.6 to 5.3), gabapentin 6.3 (95% CI: 5.0 to 8.3)] [@Finnerup2015; @NICE2013; @Attal2010], and failure to respond adequately to initial monotherapy necessitates switching to another class of agent, or using combination therapy. Thus, management of neuropathic pain requires an adequate armamentarium of medications that have proven efficacy and may be used in combination. The WHO recently urged member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_
-and _“[the] education and training of healthcare professionals, in order to ensure adequate responses to palliative care needs.”_ [@WHO2014]. Yet for neuropathic pain, the WHO Model List of Essential Medicines [@WHO2015a; @WHO2015b] is deficient in drugs with proven efficacy in treating neuropathic pain. The Model List includes only one medicine with evidence-based recommendations as a first-line treatment (amitriptyline), and no agents that are recommended as second-line treatments. And, the WHO Model Formulary [@WHO2008] provides out-dated and erroneous guidance on appropriate medications to use for treating neuropathic pain. These deficiencies are echoed in the national essential medicines lists of developing and emerging countries [@Kamerman2015]. Given its proven efficacy, good cost-utility, and global availability, we are therefore applying for inclusion of gabapentin as an additional treatment for neuropathic pain on the Model Essential Medicines List.  
+We are applying for the _**inclusion of gabapentin as an analgesic agent for the management of neuropathic pain (central and peripheral) in adults**_. The medicine has regulatory approval for the treatment of several neuropathic pain states in adults by numerous stringent regulatory bodies (including the Food and Drug Administration [@NeurontinFDA2015] and European Medicines Agency [@NeurontinEMA2013]). Furthermore, all recent evidence-based treatment guidelines recommend gabapentin as one of the first-line agents for the pharmacological management of neuropathic pain of central or peripheral origin [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010]. A recent systematic review estimated the prevalence of neuropathic pain in the general, adult population to be between 7 and 10% [@VanHecke2014], equating to over 518 million prevalent cases of adults with neuropathic pain globally. And, in certain chronic diseases that already impose or are predicted to impose a high burden of disease in developing countries, such as HIV-AIDS, diabetes mellitus, leprosy, and low-back pain, the prevalence of neuropathic pain can be more than three times the population prevalence [@Sadosky2008; @Thakur2015; @Rice2016]. In addition, developing countries are disproportionally affected by acute traumatic injuries (e.g., conflict-related trauma, motor vehicle injuries) that may cause nerve damage [@Gosselin2009]. Neuropathic pain has a major negative impact on health-related quality of life, and places a significant human and economic burden on health resources [@Doth2010; @Torrance2014]. Neuropathic pain is difficult to treat, and requires specific classes of medication for its management. Evidence-based recommendations include: tricyclic antidepressants (TCAs), $\alpha_{2}\delta$ calcium channel ligands (gabapentin and pregabalin), and serotonin and noradrenaline reuptake inhibitors (SNRIs, duloxetine and venlafaxine) as first-line agents. The number needed to treat (NNT) to achieve 50% pain relief non-attributable to placebo for these effective medications ranges between 4 and 9 [amitriptyline: 4.3 (95% CI: 3.6 to 5.3), gabapentin 6.3 (95% CI: 5.0 to 8.3)] [@Finnerup2015; @NICE2013; @Attal2010]. Failure to respond adequately to initial monotherapy necessitates switching to another class of agent, or using combination therapy. Thus, management of neuropathic pain requires an adequate armamentarium of medications that have proven efficacy and may be used in combination. The WHO recently urged member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_
+and _“[the] education and training of healthcare professionals, in order to ensure adequate responses to palliative care needs.”_ [@WHO2014]. Yet for neuropathic pain, the WHO Model List of Essential Medicines [@WHO2015a; @WHO2015b] is deficient in drugs with proven efficacy in treating neuropathic pain. The Model List includes only one medicine with evidence-based recommendations as a first-line treatment (amitriptyline), and no agents that are recommended as second-line treatments. In addition the WHO Model Formulary [@WHO2008] is not consistent with current evidence-based critical analysis and guidelines on appropriate medications to use for treating neuropathic pain. These deficiencies are echoed in the national essential medicines lists of developing and emerging countries [@Kamerman2015]. Given its proven efficacy, good cost-utility, and global availability, we are therefore applying for inclusion of gabapentin as an additional treatment for neuropathic pain on the Model Essential Medicines List.  
 
 \newpage
 
@@ -60,7 +60,14 @@ and _“[the] education and training of healthcare professionals, in order to en
 #### Supporting organizations 
 _(see Appendix 1 for copies of the letters of support)_
 
-- [to be inserted later]
+- International Society for Physical and Rehabilitative Medicine
+
+- National Pain Societies
+    - Belgian Pain Society
+    - Chinese Association for the Study of Pain
+    - Indian Society for Study of Pain
+    - Lebanese Society for the Study of Pain
+    - Society for the Study of Pain, Nigeria
 
 ## International Nonproprietary Name (INN) and Anatomical Therapeutic Chemical (ATC) code of the medicine.
 
@@ -251,7 +258,7 @@ $CLCr = \dfrac{[140~-~age~(years)]~\times~weight~(kg)}{72~\times~serum~creatinin
 
 **Oral Bioavailability:** Gabapentin bio-availability is not dose proportional. That is, as dose is increased, bio-availability decreases. Bio-availability of gabapentin is approximately 60%, 47%, 34%, 33%, and 27% following 900, 1200, 2400, 3600, and 4800 mg/day given in 3 divided doses, respectively. Although gabapentin can be administered with or without food, its administration with food increases the rate and extent of its absorption [14% increase in area under the curve (AUC) and maximum plasma concentration (Cmax)].
 
-**Distribution:** Less than 3% of gabapentin circulates bound to plasma protein. The apparent volume of distribution of gabapentin after 150mg intravenous administration is 58 $\pm$ 6 l (mean $\pm$ SD). In patients with epilepsy, the minimum plasma concentrations (Cmin) of gabapentin in cerebrospinal fluid were approximately 20% of the corresponding plasma concentrations.
+**Distribution:** Less than 3% of gabapentin circulates bound to plasma protein. The apparent volume of distribution of gabapentin after 150mg intravenous administration is 58 $\pm$ 6 l (mean $\pm$ SD). In patients with epilepsy, the minimum concentrations (Cmin) of gabapentin in cerebrospinal fluid were approximately 20% of the corresponding plasma concentrations.
 
 **Elimination:** All pharmacological actions following gabapentin administration are due to the activity of the parent compound. Gabapentin is not appreciably metabolised in humans, and is eliminated from the systemic circulation by renal excretion as unchanged drug. As such, gabapentin elimination rate constant, plasma clearance, and renal clearance are directly proportional to creatinine clearance. Gabapentin elimination half-life is 5 to 7 hours and is unaltered by dose or following multiple dosing.
 
@@ -267,17 +274,19 @@ A lethal dose of gabapentin was not identified in mice and rats receiving single
 
 **_In vivo_ studies:** _In vivo_ drug interaction studies for gabapentin have involved healthy adults and adult patients with epilepsy. The following medicines displayed no interaction with gabapentin:
 
-- Phenytoin
-
 - Carbamazepine
-
-- Valproic Acid
-
-- Phenobarbital
 
 - Naproxen _(Doses of gabapentin and naproxen used were lower than the therapeutic doses for both drugs. The magnitude of interaction within the recommended dose ranges of either drug is not known.)_
 
+- Phenobarbital
+
+- Phenytoin
+
 - Probenecid _(Probenecid is a blocker of renal tubular secretion, but did not alter gabapentin pharmacokinetic parameters, indicating that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.)_ 
+
+- Valproic Acid
+
+- Zolpidem
 
 Of importance, there are no known interactions between gabapentin and agents recommended for the treatments of:
 
@@ -293,15 +302,17 @@ Of importance, there are no known interactions between gabapentin and agents rec
 
 Interactions have been shown with the following medicines:
 
-- Hydrocodone: Co-administration of gabapentin (125 to 500mg) decreased hydrocodone (10 mg) Cmax and AUC values in a dose-dependent manner. Cmax and AUC values were 3% to 4% lower, respectively, after administration of 125mg gabapentin, and 21% to 22% lower, respectively, after administration of 500mg gabapentin. Hydrocodone increased gabapentin AUC values by 14%. The magnitude of the interaction at other doses is not known.
-    
-- Morphine: A literature article reported that when a 60mg controlled-release morphine capsule was administered 2 hours before 600mg of gabapentin, mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine. Morphine pharmacokinetic parameters were not affected by administration gabapentin. The magnitude of the interaction at other doses is not known.
+- Antacid: Administration of antacid containing aluminium hydroxide and magnesium hydroxide reduced the mean bio-availability of gabapentin by about 20%. This decrease in bio-availability was about 10% when gabapentin was administered 2 hours after the antacid.
 
 - Cimetidine: Administration of cimetidine (300mg, three times daily), was associated with a 14% reduction in the clearance of gabapentin. Creatinine clearance fell by 10%, indicating that cimetidine may alter the renal excretion of both gabapentin and creatinine. This small decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance. The effect of gabapentin on cimetidine was not evaluated.
 
-- Oral contraceptive: The AUC and half-life of multiple-dose pharmacokinetic profiles of norethindrone (50$\mu$g) and ethinyl estradiol (2.5mg) were similar with and without co-administration of gabapentin (400mg three times a day). However, the Cmax of norethindrone was 13% higher when co-administered with gabapentin. This interaction is not expected to be of clinical importance.
+- Felbamate: Gabapentin administration was associated with decreased elimination of the entiepileptic drug felbamate. The half-life of felbamate was decreased by 46%, and clearance decreased by 37%.
 
-- Antacid: Administration of antacid containing aluminium hydroxide and magnesium hydroxide reduced the mean bio-availability of gabapentin by about 20%. This decrease in bio-availability was about 10% when gabapentin was administered 2 hours after the antacid.
+- Hydrocodone: Co-administration of gabapentin (125 to 500mg) decreased hydrocodone (10 mg) Cmax and AUC values in a dose-dependent manner. Cmax and AUC values were 3% to 4% lower, respectively, after administration of 125mg gabapentin, and 21% to 22% lower, respectively, after administration of 500mg gabapentin. Hydrocodone increased gabapentin AUC values by 14%. The magnitude of the interaction at other doses is not known.
+
+- Oral contraceptive: The AUC and half-life of multiple-dose pharmacokinetic profiles of norethindrone (50$\mu$g) and ethinyl estradiol (2.5mg) were similar with and without co-administration of gabapentin (400mg three times a day). However, the Cmax of norethindrone was 13% higher when co-administered with gabapentin. This interaction is not expected to be of clinical importance.
+    
+- Morphine: A literature article reported that when a 60mg controlled-release morphine capsule was administered 2 hours before 600mg of gabapentin, mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine. Morphine pharmacokinetic parameters were not affected by administration gabapentin. The magnitude of the interaction at other doses is not known.
 
 #### Drug abuse and dependence
 
@@ -320,7 +331,7 @@ Increased seizure frequency may occur in patients with seizure disorders if gaba
 
 We are unaware of any WHO guidelines for the treatment of neuropathic pain, but several reputable organizations that are independent of the WHO have developed evidence-based guidelines. These include:
 
-- Pharmacotherapy for Neuropathic Pain in Adults: A Systematic Review and Meta-analysis, Association for the Study of Pain (IASP) [@Finnerup2015] _(Please note that N Finnerup, S Haroutonioun, PR Kamerman, SN Raja, ASC Rice and BH Smith were involved in the development of this guideline)_;
+- Pharmacotherapy for Neuropathic Pain in Adults: A Systematic Review and Meta-analysis, Association for the Study of Pain (IASP) [@Finnerup2015] _(Please note that N Finnerup, S Haroutounian, PR Kamerman, SN Raja, ASC Rice and BH Smith were involved in the development of this guideline)_;
 
 - Neuropathic Pain: The Pharmacological Management of Neuropathic Pain in Adults in Non-Specialist Settings, National Institute for Health and Care Excellence (NICE), UK [@NICE2013];
 
@@ -356,7 +367,7 @@ In the absence of a 'gold standard' for defining cases and a clinical code for r
 
 - HIV/AIDS (29 million prevalent cases globally, increasing by 275% since 1990 [@Global2015]). Approximately 35% of people with HIV/AIDS have painful neuropathy [@Sadosky2008], equating to 10 million individuals. The incidence [@Mehta2011; @Hung2008] and prevalence [@Ellis2010] of the neuropathy has decreased since the introduction of newer antiretroviral regimens that forego neurotoxic medicines such as stavudine, but remains high [@Kamerman2016b].
 
-- chronic low back pain (651 million prevalent cases globally, increasing by 57% since 1990 [@Global2015]). Approximately 37% of those with chronic low back pain have been shown to experience neuropathic pain [@Freynhagen2006], equating to 228 million individuals;
+- Chronic low back pain (651 million prevalent cases globally, increasing by 57% since 1990 [@Global2015]). Approximately 37% of those with chronic low back pain have been shown to experience neuropathic pain [@Freynhagen2006], equating to 228 million individuals;
 
 Trauma also a major cause of nervous system injury, and hence neuropathic pain. Data from the Global Burden of Disease initiative indicate that physical injury is more common in developing countries than in developed countries [@Global2015], and thus those with the least resources are likely to face a greater burden of trauma-related neuropathic pain. This greater burden is superimposed on the already greater risk for neuropathic pain in these regions associated with increasing prevalence of diabetes, and a disproportionate share of conditions such as HIV/AIDS and leprosy (Figure \ref{ghdx}).
 
@@ -383,7 +394,7 @@ Older age is one of the most important risk factors for neuropathic pain [@Smith
 
 Neuropathic pain has a significant adverse impact on all measured aspects of life, health and function [@Torrance2006]. This impact is greater than the impact of chronic, non-neuropathic pain, even when adjusting for pain intensity [@Smith2007], and is irrespective of the underlying diagnosis [@Doth2010]. In one study, 17% of people reporting neuropathic pain rated their quality of life as ‘worse than death’, according to the validated EQ5D measure [@Torrance2014]. Average quality of life scores in the presence of neuropathic pain are comparable to those in severe depression, in poorly-controlled DM, and after recent myocardial infarction [@Smith2007].
 
-In general, neuropathic pain responds poorly to treatment with conventional analgesics (there is no evidence for effectiveness of medicines such as non-steroidal anti-inflammatory drugs [@Moore2015]), and specific classes of medication are required. Gabapentin is recommended as a first-line treatment for neuropathic pain in many national and international guidelines [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010; @Moulin2007]. Tricyclic antidepressants (TCAs) are also recommended first-line treatments in these guidelines, and are already widely available, and cheaper than gabapentin [@Kamerman2015]. The target population for gabapentin use is therefore all those with neuropathic pain who have not responded, or not responded sufficiently to TCAs, or for whom TCAs are contra-indicated (e.g., glaucoma, cardiovascular disorders, epileptic seizures, poly-pharmacy) or not tolerated. The target population excludes those in whom gabapentin is contraindicated (e.g., in renal failure) or have a known intolerance to gabapentin.
+In general, neuropathic pain responds poorly to treatment with conventional analgesics (there is no evidence for effectiveness of medicines such as non-steroidal anti-inflammatory drugs [@Moore2015]), and specific classes of medication are required. Gabapentin is recommended as a first-line treatment for neuropathic pain in many national and international guidelines [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010; @Moulin2007]. Tricyclic antidepressants (TCAs) are also recommended first-line treatments in these guidelines, and are already widely available, and cheaper than gabapentin [@Kamerman2015]. The target population for gabapentin use is therefore all those with neuropathic pain who have not responded, or not responded sufficiently to TCAs, or for whom TCAs are contra-indicated (e.g., glaucoma, cardiovascular disorders, epileptic seizures, symptomatic urinary retention associated with benign prostatic hypertrophy, poly-pharmacy) or not tolerated. The target population excludes those in whom gabapentin is contraindicated (e.g., in renal failure) or have a known intolerance to gabapentin.
 
 The effectiveness of medicines used in neuropathic pain was recently reviewed systematically and comprehensively [@Finnerup2015]. In this study, gabapentin (excluding extended release preparations and the pro-drug enacarbil) had a demonstrated number needed to treat (NNT) of 6.3 to achieve at least 50% reduction in pain severity scores relative to placebo. If, as above, 518 million people have neuropathic pain worldwide, the use of gabapentin will potentially lead to this successful treatment outcome for around 82 million people. Excluding the 144 million people who could potentially achieve 50% reduction in pain from TCAs (with an NNT of 3.6 [@Finnerup2015], there remain approximately 59 million individuals who could potentially achieve this outcome from gabapentin.  
 
@@ -457,7 +468,7 @@ The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). F
 \label{bias_2}
 \end{figure}
 
-Using the GRADE process we identified that tricyclic antidepressants (TCAs; mainly amitriptyline) [^4], serotonin–adrenaline re-uptake inhibitors (SNRIs; mainly duloxetine) [^5], pregabalin [^6] and gabapentin could be considered to be first-line drugs (Figure \ref{grade}, and Figure \ref{nnt}). Amitriptyline, a TCA, already features strongly on the WHO Model List of Essential Medicines, and shares its analgesic mechanism of action with other TCAs and SNRIs. Accordingly, all TCAs and SNRIs are contraindicated for use with each other, and this contraindication precludes combination therapy with these medications should patients not respond adequately to monotherapy. Because of the incompatibility of these first-line drug classes, the evidence-base for the use of TCAs and SNRIs is not evaluated further in this section of the application [^7]. Instead, we provide updated information (based on our supplementary search in February 2016) only on the efficacy of the $\alpha 2 \delta$ calcium channel ligands gabapentin and pregabalin. This class of drugs is not contraindicated for use with TCAs or SNRIs, and so may be used alone or in combination therapy with the other two first-line classes of medicationas, as well as recommended second- and third-line therapies _(note: morphine increases the AUC of gabapentin)_. Indeed, combinations therapy is often used in the management of neuropathic pain in clinical practice [@Berger2012], and using two or more agents with proven efficacy, and which have complementary actions, has the potential to enhance efficacy and reduce side effects (through lower dosing of the individual agents) [@Gilron2013]. Unfortuntaley, very few high-quality clinical trials of combination therapy for neuropathic pain have been conducted, and the GRADE evaluation was inconclusive [@Finnerup2015]. Nevertheless, the ability to use gabapentin together with the the other classes of evidence-based pharmacological therapies, provides clinicians with the scope to trial empirical combination therapy should monotherapy fail.  
+Using the GRADE process we identified that tricyclic antidepressants (TCAs; mainly amitriptyline) [^4], serotonin–adrenaline re-uptake inhibitors (SNRIs; mainly duloxetine) [^5], pregabalin [^6] and gabapentin could be considered to be first-line drugs (Figure \ref{grade}, and Figure \ref{nnt}). Amitriptyline, a TCA, already features strongly on the WHO Model List of Essential Medicines, and shares its analgesic mechanism of action with other TCAs and SNRIs. Accordingly, all TCAs and SNRIs are contraindicated for use with each other, and this contraindication precludes combination therapy with these medications should patients not respond adequately to monotherapy. Because of the incompatibility of these first-line drug classes, the evidence-base for the use of TCAs and SNRIs is not evaluated further in this section of the application [^7]. Instead, we provide updated information (based on our supplementary search in February 2016) only on the efficacy of the $\alpha 2 \delta$ calcium channel ligands gabapentin and pregabalin. This class of drugs is not contraindicated for use with TCAs or SNRIs, and so may be used alone or in combination therapy with the other two first-line classes of medications, as well as recommended second- and third-line therapies _(note: morphine increases the AUC of gabapentin)_. Indeed, combinations therapy is often used in the management of neuropathic pain in clinical practice [@Berger2012], and using two or more agents with proven efficacy, and which have complementary actions, has the potential to enhance efficacy and reduce side effects (through lower dosing of the individual agents) [@Gilron2013]. Only a few high-quality clinical trials of combination therapy for neuropathic pain have been conducted, and therefore GRADE evaluation was inconclusive [@Finnerup2015]. Nevertheless, the ability to use gabapentin together with the the other classes of evidence-based pharmacological therapies, provides clinicians with the scope to trial empirical combination therapy should monotherapy fail.  
 
 [^7]: The supplementary literature search in 2016 identified one new  report on amitriptyline: Dinat et al., 2015 [@Dinat2015]. Dinat and colleagues compared amitriptyline and placebo in HIV-associated sensory neuropathy, and the outcome, which was associated with high placebo responses, was negative for amitriptyline.
 
@@ -819,7 +830,7 @@ load('./data/nice_qaly30k.RData')
 # Make xtable
 xtab_nice_qaly30k <- xtable(nice_qaly30k,
                             caption = "NICE health economic model: Probabilistic sensitivity analysis \\newline when \\textbf{1 QALY is valued at $\\textsterling$ 30,000} [4] \\newline \\textit{(amitriptyline, pregabalin, duloxetine, and venlafaxine are shown for comparison)}",
-                            label = 'cost_3',
+                            label = 'nice_qaly30k',
                             # set column widths. Must set R/L/C 
                             # using package array
                             align = c('l', 'L{35mm}', 'R{30mm}', 'R{30mm}', 'R{35mm}'),
@@ -896,6 +907,12 @@ Pharmacopoeial standards for gabapentin are included in the:
 - United States Pharmacopoeia (USP)
 
 - European Pharmacopoeia (PhEur)
+
+****
+
+## Source files 
+
+All R and RMarkdown scripts, Latex templates, and associated files used to generate this document are available at: \href{http://painblogr.org/WHO-EML-application-2016/}{WHO-EML-application-2016 GitHub repository under a 
 
 \newpage
 
