@@ -8,7 +8,13 @@ Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH
 
 ## Instructions 
 
-Follow the steps below to generate the application, appendices, and the executive summary.
+### Download a complete copy
+
+Click on this [link](https://dl.dropboxusercontent.com/u/11805474/painblogr/neuropathic-pain-storyboard-2016/eml-application.pdf) to access a compiled version of the document.
+
+### Build the document
+
+Follow the steps below to compile the application, appendices, and the executive summary.
 
 #### If you use Git/GitHub: 
 1. _Fork_ the repository to your GitHub account 
