@@ -910,9 +910,16 @@ Pharmacopoeial standards for gabapentin are included in the:
 
 ****
 
-## Source files 
+## Source files and citation information
 
-All R and RMarkdown scripts, Latex templates, and associated files used to generate this document are available at: \href{http://painblogr.org/WHO-EML-application-2016/}{WHO-EML-application-2016 GitHub repository under a 
+_Source files:_  
+
+All R and RMarkdown scripts, Latex templates, and associated files used to generate this document are available at: \href{http://kamermanpr.github.io/WHO-EML-application-2016/}{WHO-EML-application-2016} GitHub repository
+
+_Cite this article as:_  
+
+Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
+
 
 \newpage
 
