@@ -6,6 +6,13 @@ This repository contains all the files required to generate the application (and
 ## Bibliometric information
 Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
 
+## Acknowledgements
+We are indebted to our four external reviewers for their constructive comments:
+- Michael I Bennett (UK)
+- Daniel Ciampi de Andrada (Brazil)
+- G Allen Finley (Canada)
+- Telesphore B Nguelefack (Cameroon)
+
 ## Instructions 
 
 ### Download a complete copy
