@@ -60,6 +60,8 @@ and _“[the] education and training of healthcare professionals, in order to en
 #### Supporting organizations 
 _(see Appendix 1 for copies of the letters of support)_
 
+- World Medical Association 
+
 - International Society for Physical and Rehabilitative Medicine
 
 - National Pain Societies
@@ -67,6 +69,7 @@ _(see Appendix 1 for copies of the letters of support)_
     - Chinese Association for the Study of Pain
     - Indian Society for Study of Pain
     - Lebanese Society for the Study of Pain
+    - PainSA, South Africa
     - Society for the Study of Pain, Nigeria
 
 ## International Nonproprietary Name (INN) and Anatomical Therapeutic Chemical (ATC) code of the medicine.
@@ -924,8 +927,9 @@ Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH
 \newpage
 
 # References
+\Urlmuskip=0mu plus 1mu\relax
 \setlength{\parindent}{-10mm}
-\setlength{\leftskip}{20mm}
+\setlength{\leftskip}{10mm}
 \setlength{\parskip}{8pt}
 \noindent
 
