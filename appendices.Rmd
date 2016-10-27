@@ -6,7 +6,7 @@ output:
         keep_tex: false
 ---
 <!-- Title page -->
-\begin{titlepage}
+\section*{}
 \begin{center}
 
 \LARGE{\textbf{Appendix 1}}
@@ -21,7 +21,6 @@ output:
 \textbf{Page count}\\
 
 \end{center}
-\end{titlepage}
 
 <!-- body -->
 \newpage
@@ -30,7 +29,7 @@ output:
 <!--\includepdf[pages=-]{./other/XXXXX.pdf}-->
 
 <!-- Title page -->
-\begin{titlepage}
+\section*{}
 \begin{center}
 
 \LARGE{\textbf{Appendix 2}} \\
@@ -52,9 +51,8 @@ a systematic review and meta-analysis}}\\
 \textbf{Supplementary data}\\
 All supplementary information for the systematic review and meta-analysis is available for download.\\
 \vspace{3mm}
-\href{https://dl.dropboxusercontent.com/u/11805474/neml/who-application-2016/finnerup2015-supp-data.pdf?dl=1}{\textit{Download link}}
+\href{https://dl.dropboxusercontent.com/u/11805474/neml/who-application-2016/finnerup2015-supp-data.pdf?dl=1}{\textit{Access online}}
 \end{center}
-\end{titlepage}
 
 <!-- body -->
 \newpage
@@ -63,7 +61,7 @@ All supplementary information for the systematic review and meta-analysis is ava
 \includepdf[pages=-]{./appendix-files/appendix-2-finnerup.pdf}
 
 <!-- Title page -->
-\begin{titlepage}
+\section*{}
 \begin{center}
 
 \LARGE{\textbf{Appendix 3}} \\
@@ -84,10 +82,9 @@ All supplementary information for the systematic review and meta-analysis is ava
 \textbf{Supplementary data}\\
 All supplementary information, including data and analysis scripts, are available in a public GitHub repository.\\
 \vspace{3mm}
-\href{https://github.com/kamermanpr/who-neml}{\textit{Access repository}}
+\href{https://github.com/kamermanpr/who-neml}{\textit{Access online}}
 
 \end{center}
-\end{titlepage}
 
 <!-- body -->
 \newpage
@@ -95,4 +92,66 @@ All supplementary information, including data and analysis scripts, are availabl
 
 \includepdf[pages=-]{./appendix-files/appendix-3-kamerman.pdf}
 
+<!-- Title page -->
+\section*{}
+\begin{center}
 
+\LARGE{\textbf{Appendix 4}}
+\vspace{20mm}
+
+\LARGE{\textbf{NEURONTIN}}
+\vspace{5mm}
+
+\Large{\textbf{Full prescribing information}}
+\vspace{10mm}
+
+\large{\textit{Food and Drug Administration (FDA)}}\\
+\vspace{5mm}
+
+\large{\textit{United States of America}}\\
+\vspace{10mm}
+
+\large{\textbf{Updated:} September 2015; \textbf{Reference ID:} 3818812}\\
+\vspace{5mm}
+
+\large{\href{http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020235s060,020882s043,021129s042lbl.pdf}{\textit{Access online}}}
+
+\end{center}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[pages=-]{./appendix-files/fda.pdf}
+
+<!-- Title page -->
+\section*{}
+\begin{center}
+
+\LARGE{\textbf{Appendix 5}}
+\vspace{20mm}
+
+\LARGE{\textbf{NEURONTIN}}
+\vspace{5mm}
+
+\Large{\textbf{Summary of product information (ANNEX III)}}
+\vspace{10mm}
+
+\large{\textit{European Medicines Agency (EMA)}}\\
+\vspace{5mm}
+
+\large{\textit{European Union}}\\
+\vspace{10mm}
+
+\large{\textbf{Updated:} September 2006}\\
+\vspace{5mm}
+
+\large{\href{http://www.ema.europa.eu/docs/en_GB/document_library/Referrals_document/Neurontin_30/WC500009308.pdf}{\textit{Access online}}}
+
+\end{center}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[pages=-]{./appendix-files/ema.pdf}
