@@ -105,14 +105,7 @@ Gabapentin is only approved for use in managing neuropathic pain in adults [^1].
 
 #### Core List
 
-- Tablets:  100mg, 200mg, 300mg, 400mg, 600mg, 800mg
-
-- Capsules: 100mg, 300mg, 400mg, 600mg
-
-
-#### Complementary List
-
-- Oral solution: 50 mg/ml (150-470ml bottle sizes available through different manufacturers)
+- Solid oral dose forms (tablets and capsules):  100mg, 200mg, 300mg, 400mg, 600mg, 800mg
 
 ## International availability
 Table \ref{availability} lists countries, trade names, formulations, and manufacturers of gabapentin obtained from Martindale: The Complete Drug Reference [@Martindale2014] via Micromedex Solutions (Micromedex Inc., http://micromedex.com). The source listed 206 unique manufacturers of gabapentin across 42 countries, marketing the medicine under 241 proprietary names. Of these, 17 countries, 161 manufacturers, and 177 proprietary names were listed under countries classified as emerging or developing countries by the International Monetary Fund [@IMF2016]. 
