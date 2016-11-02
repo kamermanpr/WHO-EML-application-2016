@@ -6,7 +6,9 @@ VPATH = rscripts data images
 
 EXECSUMMARY =  	summary.pdf
 APPLICATION = 	application.pdf
-ACCESSORYFILES = 	diabetes.pdf ghdx.pdf nnt.pdf \
+ACCESSORYFILES = 	diabetes.pdf ghdx.pdf nnt.pdf adverse_events-RR.pdf \
+					combo-RR.pdf dizziness-RR.pdf efficacy-RR.pdf \
+					somnolence-RR.pdf \
 					availability.RData cost_unit.RData cost_ddd.RData \
 					cost_mdd.RData nice_cost.RData nice_qaly20k.RData \
 					nice_qaly30k.RData reg_approval.RData
@@ -22,6 +24,8 @@ summary.pdf: summary.Rmd
 # Generate body of application
 ##############################
 application.pdf: 	application.Rmd diabetes.pdf ghdx.pdf nnt.pdf \
+					adverse_events-RR.pdf combo-RR.pdf dizziness-RR.pdf \
+					efficacy-RR.pdf somnolence-RR.pdf \
 					availability.RData cost_unit.RData cost_ddd.RData \
 					cost_mdd.RData nice_cost.RData nice_qaly20k.RData \
 					nice_qaly30k.RData reg_approval.RData
@@ -35,6 +39,16 @@ images/diabetes.pdf: diabetes.R
 images/ghdx.pdf: ghdx.R
 	Rscript "$<"
 images/nnt.pdf: nnt.R
+	Rscript "$<"
+images/adverse_events-RR.pdf: AE_meta.analysis.R
+	Rscript "$<"
+images/combo-RR.pdf: combo_efficacy.R
+	Rscript "$<"
+images/dizziness-RR.pdf: dizziness_meta.analysis.R
+	Rscript "$<"
+images/efficacy-RR.pdf: efficacy_meta.analysis.R
+	Rscript "$<"
+images/somnolence-RR.pdf: somnolence_meta.analysis.R
 	Rscript "$<"
 
 # .RData files for tables
