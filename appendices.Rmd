@@ -28,11 +28,56 @@ output:
 
 <!--\includepdf[pages=-]{./other/XXXXX.pdf}-->
 
+
 <!-- Title page -->
 \section*{}
 \begin{center}
 
 \LARGE{\textbf{Appendix 2}} \\
+\vspace{20mm}
+
+\large{\textbf{Description and bias assessment of studies included in GRADE assessment}} \\
+\vspace{5mm}
+
+\end{center}
+
+\justify
+\large{\textbf{Adapted from:} Moore RA, Wiffen PJ, Derry S, Toelle T, Rice ASC.
+Gabapentin for chronic neuropathic pain and fibromyalgia in adults. \textit{Cochrane Database of Systematic Reviews} \textbf{4}: CD007938, 2014. DOI: \href{http://dx.doi.org/10.1002/14651858.CD007938.pub3}{10.1002/14651858.CD007938.pub3}}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[page=-]{./appendix-files/cochrane-study-descriptions.pdf}
+
+<!-- Title page -->
+\section*{}
+\begin{center}
+
+\LARGE{\textbf{Appendix 3}} \\
+\vspace{20mm}
+
+\large{\textbf{Summary of outcomes of studies included in GRADE assessment}} \\
+\vspace{5mm}
+
+\end{center}
+
+\justify
+\large{\textbf{Adapted from:} Moore RA, Wiffen PJ, Derry S, Toelle T, Rice ASC.
+Gabapentin for chronic neuropathic pain and fibromyalgia in adults. \textit{Cochrane Database of Systematic Reviews} \textbf{4}: CD007938, 2014. DOI: \href{http://dx.doi.org/10.1002/14651858.CD007938.pub3}{10.1002/14651858.CD007938.pub3}}
+
+<!-- body -->
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[page=-]{./appendix-files/cochrane-study-outcomes.pdf}
+
+<!-- Title page -->
+\section*{}
+\begin{center}
+
+\LARGE{\textbf{Appendix 4}} \\
 \vspace{20mm}
 
 \large{Finnerup NB, Attal N, Haroutounian S, McNicol E, Baron R, Dworkin RH, Gilron I, Haanpää M, Hansson P, Jensen TS, Kamerman PR, Lund K, Moore A, Raja SN, Rice AS, Rowbotham M, Sena E, Siddall P, Smith BH, Wallace M}\\
@@ -64,7 +109,7 @@ All supplementary information for the systematic review and meta-analysis is ava
 \section*{}
 \begin{center}
 
-\LARGE{\textbf{Appendix 3}} \\
+\LARGE{\textbf{Appendix 5}} \\
 \vspace{20mm}
 
 \large{Kamerman PR, Wadley AL, Davis KD, Hietaharju A, Jain P, Kopf A, Meyer AC, Raja SN, Rice AS, Smith BH, Treede RD, Wiffen PJ}\\
@@ -96,7 +141,7 @@ All supplementary information, including data and analysis scripts, are availabl
 \section*{}
 \begin{center}
 
-\LARGE{\textbf{Appendix 4}}
+\LARGE{\textbf{Appendix 6}}
 \vspace{20mm}
 
 \LARGE{\textbf{NEURONTIN}}
@@ -128,7 +173,7 @@ All supplementary information, including data and analysis scripts, are availabl
 \section*{}
 \begin{center}
 
-\LARGE{\textbf{Appendix 5}}
+\LARGE{\textbf{Appendix 7}}
 \vspace{20mm}
 
 \LARGE{\textbf{NEURONTIN}}
