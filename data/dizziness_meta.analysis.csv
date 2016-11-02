@@ -1,0 +1,10 @@
+ID,study,treated_total_n,control_total_n,treated_outcome_n,control_outcome_n,treated_no.outcome_n,control_no.outcome_n,allocation_bias,jadad_blinding_score
+1,Rowbotham 1998 (PHN),113,116,27,6,86,110,low risk,2
+2,Rice 2001 (PHN),223,111,72,11,151,100,low risk,2
+3,Serpell 2002 (MIXED),153,152,37,12,116,140,low risk,2
+4,Hahn 2004 (HIVSN),15,11,9,5,6,6,low risk,2
+5,Gordh 2008 (PNI),120,120,39,9,81,111,low risk,2
+6,CTR A945 1008 (PPN),200,189,38,15,162,174,unclear,2
+7,Backonja 1998 (DPN),84,81,20,4,64,77,unclear,2
+8,Simpson 2001 (DPN),27,27,6,1,21,26,unclear,2
+9,Bone 2002 (POSTAMP),19,19,2,1,17,18,unclear,2
