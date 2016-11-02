@@ -24,6 +24,7 @@ library(tidyr)
 library(knitr)
 library(readr)
 library(stringr)
+library(rmeta)
     
 opts_chunk$set(echo = FALSE,
                warning = FALSE,
@@ -40,8 +41,7 @@ opts_chunk$set(echo = FALSE,
 
 ## Summary statement of the proposal for inclusion.
 
-We are applying for the _**inclusion of gabapentin as an analgesic agent for the management of neuropathic pain (central and peripheral) in adults**_. The medicine has regulatory approval for the treatment of several neuropathic pain states in adults by numerous stringent regulatory bodies (including the Food and Drug Administration [@NeurontinFDA2015] and European Medicines Agency [@NeurontinEMA2013]). Furthermore, all recent evidence-based treatment guidelines recommend gabapentin as one of the first-line agents for the pharmacological management of neuropathic pain of central or peripheral origin [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010]. A recent systematic review estimated the prevalence of neuropathic pain in the general, adult population to be between 7 and 10% [@VanHecke2014], equating to over 518 million prevalent cases of adults with neuropathic pain globally. And, in certain chronic diseases that already impose or are predicted to impose a high burden of disease in developing countries, such as HIV-AIDS, diabetes mellitus, leprosy, and low-back pain, the prevalence of neuropathic pain can be more than three times the population prevalence [@Sadosky2008; @Thakur2015; @Rice2016]. In addition, developing countries are disproportionally affected by acute traumatic injuries (e.g., conflict-related trauma, motor vehicle injuries) that may cause nerve damage [@Gosselin2009]. Neuropathic pain has a major negative impact on health-related quality of life, and places a significant human and economic burden on health resources [@Doth2010; @Torrance2014]. Neuropathic pain is difficult to treat, and requires specific classes of medication for its management. Evidence-based recommendations include: tricyclic antidepressants (TCAs), $\alpha_{2}\delta$ calcium channel ligands (gabapentin and pregabalin), and serotonin and noradrenaline reuptake inhibitors (SNRIs, duloxetine and venlafaxine) as first-line agents. The number needed to treat (NNT) to achieve 50% pain relief non-attributable to placebo for these effective medications ranges between 4 and 9 [amitriptyline: 4.3 (95% CI: 3.6 to 5.3), gabapentin 6.3 (95% CI: 5.0 to 8.3)] [@Finnerup2015; @NICE2013; @Attal2010]. Failure to respond adequately to initial monotherapy necessitates switching to another class of agent, or using combination therapy. Thus, management of neuropathic pain requires an adequate armamentarium of medications that have proven efficacy and may be used in combination. The WHO recently urged member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_
-and _“[the] education and training of healthcare professionals, in order to ensure adequate responses to palliative care needs.”_ [@WHO2014]. Yet for neuropathic pain, the WHO Model List of Essential Medicines [@WHO2015a; @WHO2015b] is deficient in medicines with proven efficacy in treating neuropathic pain. The Model List includes only one medicine with evidence-based recommendations as a first-line treatment (amitriptyline), and no agents that are recommended as second-line treatments. In addition the WHO Model Formulary [@WHO2008] is not consistent with current evidence-based critical analysis and guidelines on appropriate medications to use for treating neuropathic pain. These deficiencies are echoed in the national essential medicines lists of developing and emerging countries [@Kamerman2015]. Given its proven efficacy, good cost-utility, and global availability, we are therefore applying for inclusion of gabapentin as an additional treatment for neuropathic pain on the Model Essential Medicines List. Please note that our request to include gabapentin is complementary to the inclusion of morphine, both being necessary for the treatment of pain.
+We are applying for the _**inclusion of gabapentin as an analgesic agent for the management of neuropathic pain (central and peripheral) in adults**_. The medicine has regulatory approval for the treatment of several neuropathic pain states in adults by numerous stringent regulatory bodies (including the Food and Drug Administration [@NeurontinFDA2015] and European Medicines Agency [@NeurontinEMA2013]). Furthermore, all recent evidence-based treatment guidelines recommend gabapentin as one of the first-line agents for the pharmacological management of neuropathic pain of central or peripheral origin [@Finnerup2015; @NICE2013; @SIGN2013; @Attal2010]. A recent systematic review estimated the prevalence of neuropathic pain in the general, adult population to be between 7 and 10% [@VanHecke2014], equating to over 518 million prevalent cases of adults with neuropathic pain globally. And, in certain chronic diseases that already impose or are predicted to impose a high burden of disease in developing countries, such as HIV-AIDS, diabetes mellitus, leprosy, and low-back pain, the prevalence of neuropathic pain can be more than three times the population prevalence [@Sadosky2008; @Thakur2015; @Rice2016]. In addition, developing countries are disproportionally affected by acute traumatic injuries (e.g., conflict-related trauma, motor vehicle injuries) that may cause nerve damage [@Gosselin2009]. Neuropathic pain has a major negative impact on health-related quality of life, and places a significant human and economic burden on health resources [@Doth2010; @Torrance2014]. Neuropathic pain is difficult to treat, and requires specific classes of medication for its management. Evidence-based recommendations include: tricyclic antidepressants (TCAs), $\alpha_{2}\delta$ calcium channel ligands (gabapentin and pregabalin), and serotonin and noradrenaline reuptake inhibitors (SNRIs, duloxetine and venlafaxine) as first-line agents. The number needed to treat (NNT) to achieve 50% pain relief non-attributable to placebo for these effective medications ranges between 4 and 9 [amitriptyline: 4.3 (95% CI: 3.6 to 5.3), gabapentin 6.3 (95% CI: 5.0 to 8.3)] [@Finnerup2015; @NICE2013; @Attal2010]. Failure to respond adequately to initial monotherapy necessitates switching to another class of agent, or using combination therapy. Thus, management of neuropathic pain requires an adequate armamentarium of medications that have proven efficacy and may be used in combination. The WHO recently urged member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_ and _“[the] education and training of healthcare professionals, in order to ensure adequate responses to palliative care needs.”_ [@WHO2014]. Yet for neuropathic pain, the WHO Model List of Essential Medicines [@WHO2015a; @WHO2015b] is deficient in medicines with proven efficacy in treating neuropathic pain. The Model List includes only one medicine with evidence-based recommendations as a first-line treatment (amitriptyline), and no agents that are recommended as second-line treatments. In addition the WHO Model Formulary [@WHO2008] is not consistent with current evidence-based critical analysis and guidelines on appropriate medications to use for treating neuropathic pain. These deficiencies are echoed in the national essential medicines lists of developing and emerging countries [@Kamerman2015]. Given its proven efficacy, good cost-utility, and global availability, we are therefore applying for inclusion of gabapentin as an additional treatment for neuropathic pain on the Model Essential Medicines List. _Please note that our request to include gabapentin is complementary to the continued inclusion of morphine and amitriptyline on the Model List; both these agents are essential components of the suite of pharmacological agents required for the management of pain._
 
 \newpage
 
@@ -179,7 +179,7 @@ The diagnosis of neuropathic pain can be established using a history and clinica
 
 ### Treatment
 
-The information on treatment was obtained from regulatory documents available from the Food and Drug Administration (FDA) [@NeurontinFDA2015], and European Medicines Agency (EMA) [@NeurontinEMA2013] for Neurontin (gabapentin, Pfizer Inc).
+The information on treatment was obtained from regulatory documents available from the Food and Drug Administration (FDA) [@NeurontinFDA2015], and European Medicines Agency (EMA) [@NeurontinEMA2013] for Neurontin (gabapentin, Pfizer Inc). Full product information from both the FDA and EMA can be located in Appendix 4 and Appendix 5, respectively. Here we summarise key aspects of the aforementioned documents.
 
 #### Dosage and administration
 
@@ -193,98 +193,33 @@ Usual dosage range:
 
     A recent review of neuropathic pain in children provides an excellent summary of our knowledge of neuropathic pain and its treatment in children: _"The most common neuropathic pain conditions seen in adults are rare in children. Some neuropathic conditions are becoming increasingly recognized in children and adolescents, including complex regional pain syndromes, phantom limb pain, spinal cord injury, trauma and postoperative neuropathic pain, autoimmune and degenerative neuropathies (eg, Guillain-Barr$\acute{e}$ syndrome, Charcot-Marie-Tooth disease), and the effects of cancer disease processes and treatment. Some neuropathic pain syndromes are relatively unique to the pediatric population, including toxic and metabolic neuropathies (eg, lead, mercury, alcohol, infection), hereditary neurodegenerative disorders (eg, Fabry disease), mitochondrial disorders, and primary erythromelalgia. All these cause significant suffering to children and their caregivers and steps need to be taken to alleviate this suffering....In some countries, gabapentin has been approved for the use of paediatric neuropathic pain. However, the amount of evidence available on the effectiveness and safety of gabapentin in pediatric neuropathic pain is too weak for the authors to make a recommendation at this time. Additional studies are recommended and needed."_ [@Walco2010].
     
-    Unfortunately, the evidence-base for treatments of neuropathic pain in children has not advanced significantly since the writing of the review. But hopefully if recent activity in this area continues [@Brown2016], the evidence for the use of gabapentin for neuropathic pain in children can be reassessed for future editions of the Essential Medicines List for Children. 
-    
-Gabapentin can be administered with or without food, and should be swallowed whole with sufficient fluid (e.g. a glass of water).
+    Unfortunately, the evidence-base for treatments of neuropathic pain in children has not advanced significantly since the writing of the review. But hopefully if recent activity in this area continues [@Brown2016], the evidence for the use of gabapentin for neuropathic pain in children can be reassessed for future editions of the Essential Medicines List for Children.
 
-The FDA and the EMA recommend the following titration schedule for neuropathic pain:
 
-- Day 1: Single 300mg dose
+Treatment typically is started at 300mg once daily, escalating by 300mg per day until reaching 900mg daily (t.i.d). Thereafter, if required, the dose can be increased in 300mg/day increments every 2 to 3 days up to a maximum dose of 1800mg/day. Gabapentin can be administered with or without food, and should be swallowed whole with sufficient fluid (e.g. a glass of water).
 
-- Day 2: 600mg/day (300mg two times a day)
+Any additional benefit of increasing the dose past 1800mg/day (up to 3600mg/day) has not been demonstrated. In clinical trials, the clinical effect (separation from placebo) typically was evident by the end of first week of treatment.
 
-- Day 3: 900mg/day (300mg three times a day)
-
-Thereafter, based on therapeutic response and tolerability, the dose can be increased in 300mg/day increments every 2 to 3 days up to a maximum dose of 1800mg/day. Slower titration of gabapentin dosage may be appropriate for individual patients. The minimum time to reach a dose of 1800 mg/day is one week. In analgesic clinical trials of gabapentin in neuropathic pain, the clinical effect (separation from placebo) typically was evident by the end of first week of treatment.
-
-In clinical studies, efficacy was demonstrated over a range of doses from 1800mg/day to 3600mg/day with comparable effects across the dose range. However, the additional benefit of using doses greater than 1800mg/day was not demonstrated.  
-
-If the gabapentin dose is reduced, discontinued, or substituted with an alternative medication, this should be done gradually over a minimum of one week (a longer period may be needed at the discretion of the prescriber).
+If the gabapentin dose is reduced or discontinued the dose should be gradually reduced over a minimum of one week.
 
 #### Special populations
 
-**Children:** Gabapentin does not have regulatory approval for managing neuropathic pain in paediatric patients, but does have approval for use as adjunctive therapy or mono-therapy for partial seizures in children aged 3 to 11 years. Dosing recommendations for this indication are not presented here.
-
-**Older persons:** The total number of patients treated with gabapentin in clinical trials in patients with post-herpetic neuralgia was 336, of which 102 (30%) were 65 to 74 years of age, and 168 (50%) were 75 years of age and older. There was a larger treatment effect in patients 75 years of age and older compared with younger patients who received the same dosage. Since gabapentin is almost exclusively eliminated by renal excretion, the larger treatment effect observed in patients 75 years or older may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. Nevertheless, care should be taken in dose selection, in older persons, and dose should be adjusted based on creatinine clearance values in these patients. The types and incidence of adverse reactions were similar across age groups except for peripheral oedema and ataxia, which tended to increase in incidence with age.
-
-**Renal impairment:** Gabapentin undergoes almost exclusive renal clearance, and therefore it is recommended that the dose of gabapentin is reduced in patients with renal impairment or undergoing haemodialysis (paediatric patients with renal insufficiency have not been studied). Recommended dosage adjustments are shown in Table \ref{renal}.
-
-\begin{table}[h!]
-% Had to make table by hand because of complicated multi-column format
-\centering
-\caption{Gabapentin dosage based on renal function}
-\label{renal}
-\begin{tabular}{@{}lllllll@{}}
-\toprule
-\begin{tabular}[b]{@{}l@{}}Renal function: \\ creatinine \\ clearance \\ (ml/min)$^{\ast}$\end{tabular} & \begin{tabular}[b]{@{}l@{}}Total daily \\ dose range \\ (mg/day)\end{tabular} & \begin{tabular}[b]{@{}l@{}}Regimen:$^{\dag}$ \\ A\end{tabular} & B           & C           & D           & E            \\ \toprule
-$\geq$ 60                                                                                      & 900 to 3600                                                                   & 300$_{tid}$                                          & 400$_{tid}$ & 600$_{tid}$ & 800$_{tid}$ & 1200$_{tid}$ \\
-30 to 59                                                                                       & 400 to 1400                                                                   & 200$_{bid}$                                          & 300$_{bid}$ & 400$_{bid}$ & 500$_{bid}$ & 700$_{bid}$  \\
-15 to 29                                                                                       & 200 to 700                                                                    & 200$_{qd}$                                           & 300$_{qd}$  & 400$_{qd}$  & 500$_{qd}$  & 700$_{qd}$   \\
-$<$ 15$^{\ddag}$                                                                            & 100 to 300                                                                    & 100$_{qd}$                                           & 125$_{qd}$  & 150$_{qd}$  & 200$_{qd}$  & 300$_{qd}$   \\ 
-\bottomrule
-\multicolumn{7}{l}{} \\
-\multicolumn{2}{l}{}                                                                                                                                                           & \multicolumn{5}{l}{Post-haemodialysis supplemental dose (mg)$^{\mathbb{S}}$}                  \\
-\toprule
-\multicolumn{2}{l}{Haemodialysis}                                                                                                                                               & 125                                                  & 150         & 200         & 250         & 350          \\ \bottomrule
-\multicolumn{7}{L{130mm}}{\footnotesize{\textbf{$\dag:$} $tid$ = three times a day, $bid$ = two times a day, $qd$ = single daily dose }} \\
-\multicolumn{7}{L{130mm}}{\footnotesize{\textbf{$\ddag:$} For patients with creatinine clearance $<$ 15ml/min, reduce daily dose in proportion to creatinine clearance (e.g., patients with a creatinine clearance of 7.5ml/min should receive one-half the daily dose that patients with a creatinine clearance of 15ml/min receive).}} \\
-\multicolumn{7}{L{130mm}}{\footnotesize{\textbf{$\mathbb{S}:$} Patients on haemodialysis should receive maintenance doses based on estimates of creatinine clearance as indicated in the upper portion of the table and a supplemental post-haemodialysis dose administered after each 4 hours of haemodialysis as indicated in the lower portion of the table.}} \\
-\multicolumn{7}{L{130mm}}{\footnotesize{\textbf{$\ast:$} In out-patients with stable renal function, creatinine clearance (CLCr) can be reasonably well estimated using the equation of Cockcroft and Gault: \newline
-$CLCr = \dfrac{[140~-~age~(years)]~\times~weight~(kg)}{72~\times~serum~creatinine~(mg/dl)}~(\times~0.85~for~female~patients)$}}\\
-\end{tabular}
-\end{table}
-
-**Pregnancy:** Gabapentin is classified as _Pregnancy Category C_; use during pregnancy only if the potential benefit justifies the potential risk to the fetus. There are no adequate and well-controlled studies in pregnant women. In pre-clinical studies in mice, rats, and rabbits, gabapentin was developmentally toxic when administered to pregnant animals at doses similar to or lower than those used clinically. However, observational data indicates that the rate of fetal malfomations in women taking gabapentin is not greater than that reported in the general population [@Guttuso2014; @Fujii2013].
-
-**Nursing Mothers:** Gabapentin is secreted into human milk following oral administration, possibly exposing a nursed infant to a maximum dose of approximately 1 mg/kg/day of gabapentin. Because the effect on the nursing infant is unknown, gabapentin should be used in women who are nursing only if the benefits clearly outweigh the risks.
-
-**Other:** Although no formal studies have been conducted, neither sex, race nor hepatic impairment have been reported to affect the pharmacokinetics of gabapentin.
+Dosing adjustments and risk-benefit assessments are required in the following populations: individuals with renal impairment, older persons, and pregnant and nursing women. Although no formal studies have been conducted, neither sex, race, nor hepatic impairment have been reported to affect the pharmacokinetics of gabapentin.
 
 #### Pharmacokinetics
 
-**Oral Bioavailability:** Gabapentin bio-availability is not dose proportional. That is, as dose is increased, bio-availability decreases. Bio-availability of gabapentin is approximately 60%, 47%, 34%, 33%, and 27% following 900, 1200, 2400, 3600, and 4800 mg/day given in 3 divided doses, respectively. Although gabapentin can be administered with or without food, its administration with food increases the rate and extent of its absorption [14% increase in area under the curve (AUC) and maximum plasma concentration (Cmax)].
+Gabapentin bio-availability is not dose proportional, such that bio-availablity decreases as dose increases. Less than 3% of gabapentin circulates bound to plasma protein, and it is eliminated from the systemic circulation by renal excretion as an unchanged molecule.
 
-**Distribution:** Less than 3% of gabapentin circulates bound to plasma protein. The apparent volume of distribution of gabapentin after 150mg intravenous administration is 58 $\pm$ 6 l (mean $\pm$ SD). In patients with epilepsy, the minimum concentrations (Cmin) of gabapentin in cerebrospinal fluid were approximately 20% of the corresponding plasma concentrations.
+#### Long-term use and overdose
+The efficacy and safety of gabapentin has not been examined in clinical studies for treatment periods longer than five months, and the treating physician should assess the patient’s clinical status and need should longer periods of treatment be required.
 
-**Elimination:** All pharmacological actions following gabapentin administration are due to the activity of the parent compound. Gabapentin is not appreciably metabolised in humans, and is eliminated from the systemic circulation by renal excretion as an unchanged molecule. As such, gabapentin elimination rate constant, plasma clearance, and renal clearance are directly proportional to creatinine clearance. Gabapentin elimination half-life is 5 to 7 hours and is unaltered by dose or following multiple dosing.
-
-In older persons, and in people with impaired renal function, gabapentin plasma clearance is reduced. If required, gabapentin can be removed from plasma by haemodialysis.
-
-**Long-term use and overdose:** The EMA documentation notes that the efficacy and safety of gabapentin has not been examined in clinical studies for treatment periods longer than five months, and if a patient requires dosing for longer periods that the treating physician should assess the patient’s clinical status and determine the need for additional therapy.
-
-A lethal dose of gabapentin was not identified in mice and rats receiving single oral doses as high as 8000mg/kg. Signs of acute toxicity in animals included ataxia, laboured breathing, ptosis, sedation, hypoactivity, or excitation. Acute oral overdoses of gabapentin up to 49000mg have been reported. In these cases, double vision, slurred speech, drowsiness, lethargy, and diarrhoea were observed. All patients recovered with supportive care. Coma, resolving with dialysis, has been reported in patients with chronic renal failure who were treated with gabapentin.
+Acute oral overdoses of gabapentin up to 49,000mg have been reported, and in all cases patients recovered with supportive care. Coma, resolving with dialysis, has been reported in patients with chronic renal failure who were treated with gabapentin.
 
 #### Drug interactions
 
-**_In vitro_ studies:** _In vitro_ studies investigating the effect of gabapentin on major cytochrome P450 enzymes (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4) found that the only isoform inhibited was CYP2A6, and only at the highest dose tested (171$\mu$g/ml, ~15 times the Cmax at 3600mg/day). Even then, the level of inhibition was modest (14 to 30%).
+_In vitro_ studies indicate that gabapentin has no or negligible effect on major cytochrome P450 enzymes, while _in vivo_ interaction studies for gabapentin showed no interaction with: carbamazepine, naproxen, phenobarbital, phenytoin, probenecid, valproic acid, and zolpidem.
 
-**_In vivo_ studies:** _In vivo_ Interaction studies for gabapentin have involved healthy adults and adult patients with epilepsy. The following medicines displayed no interaction with gabapentin:
-
-- Carbamazepine
-
-- Naproxen _(Doses of gabapentin and naproxen used were lower than the therapeutic doses for both medicines. The magnitude of interaction within the recommended dose ranges of either medicine is not known.)_
-
-- Phenobarbital
-
-- Phenytoin
-
-- Probenecid _(Probenecid is a blocker of renal tubular secretion, but did not alter gabapentin pharmacokinetic parameters, indicating that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.)_ 
-
-- Valproic Acid
-
-- Zolpidem
-
-Of importance, there are no known interactions between gabapentin and agents recommended for the treatments of:
+Nor does gabapentin have any known interactions with treatments recommended for:
 
 - HIV infection in adults or children (lamivudine, abacavir, zidovudine, tenofovir, stavudine, lopinavir/ritonavir, darunavir, dolutegravir, efavirenz, emtricitabine, nevirapine) [@WHO2016]
 
@@ -296,19 +231,7 @@ Of importance, there are no known interactions between gabapentin and agents rec
 
 - leprosy (clofazimine, dapsone, minocycline, ofloxacin, rifampicin) [@WHO1998]
 
-Interactions have been shown with the following medicines:
-
-- Antacid: Administration of antacid containing aluminium hydroxide and magnesium hydroxide reduced the mean bio-availability of gabapentin by about 20%. This decrease in bio-availability was about 10% when gabapentin was administered 2 hours after the antacid.
-
-- Cimetidine: Administration of cimetidine (300mg, three times daily), was associated with a 14% reduction in the clearance of gabapentin. Creatinine clearance fell by 10%, indicating that cimetidine may alter the renal excretion of both gabapentin and creatinine. This small decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance. The effect of gabapentin on cimetidine was not evaluated.
-
-- Felbamate: Gabapentin administration was associated with decreased elimination of the entiepileptic medicine felbamate. The half-life of felbamate was decreased by 46%, and clearance decreased by 37%.
-
-- Hydrocodone: Co-administration of gabapentin (125 to 500mg) decreased hydrocodone (10 mg) Cmax and AUC values in a dose-dependent manner. Cmax and AUC values were 3% to 4% lower, respectively, after administration of 125mg gabapentin, and 21% to 22% lower, respectively, after administration of 500mg gabapentin. Hydrocodone increased gabapentin AUC values by 14%. The magnitude of the interaction at other doses is not known.
-
-- Oral contraceptive: The AUC and half-life of multiple-dose pharmacokinetic profiles of norethindrone (50$\mu$g) and ethinyl estradiol (2.5mg) were similar with and without co-administration of gabapentin (400mg three times a day). However, the Cmax of norethindrone was 13% higher when co-administered with gabapentin. This interaction is not expected to be of clinical importance.
-    
-- Morphine: A literature article reported that when a 60mg controlled-release morphine capsule was administered 2 hours before 600mg of gabapentin, mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine. Morphine pharmacokinetic parameters were not affected by administration gabapentin. The magnitude of the interaction at other doses is not known.
+Gabapentin has been shown to interact with: antacids, cimetidine, felbamate, hydrocodone, morphine, and oral contraceptives. 
 
 #### Substance abuse and dependence
 
@@ -316,10 +239,10 @@ Gapentin in not an internationally controlled medication.
 
 The dependence and abuse potential of gabapentin has not been formally evaluated in human studies.
 
-**Abuse:** Gabapentin does not exhibit affinity for benzodiazepine (GABA), opioid, or cannabinoid-1 receptor sites. A small number of post-marketing cases report gabapentin misuse and abuse. These individuals were taking higher than recommended doses of gabapentin for unapproved uses. Most of the individuals described in these reports had a history of poly-substance abuse or used gabapentin to relieve symptoms of withdrawal from other substances. Consequently, the FDA recommends that patients with a history of substance abuse should be carefully evaluated before starting gabapentin. And, they should be observed for signs and symptoms of gabapentin misuse or abuse (e.g., development of tolerance, self-dose escalation, and substance-seeking behaviour). The FDA recommendation is consistent with a review of the literature by Schifano [@Schifano2014], which concluded that the risk of misuse of $\alpha_{2}\delta$ calcium channel ligands is low when the agents are administered at therapeutic doses to individuals with no history of substance misuse.
+**Abuse:** Gabapentin does not exhibit affinity for benzodiazepine (GABA), opioid, or cannabinoid-1 receptor sites. A small number of post-marketing cases report gabapentin misuse and abuse. The FDA recommendation is consistent with a review of the literature by Schifano [@Schifano2014], which concluded that the risk of misuse of $\alpha_{2}\delta$ calcium channel ligands is low when the agents are administered at therapeutic doses to individuals with no history of substance misuse.
 
 **Dependence:** 
-There are rare post-marketing reports of individuals experiencing withdrawal symptoms shortly after discontinuing higher than recommended doses of gabapentin used to treat illnesses for which the medicine is not approved. Such symptoms included agitation, disorientation and confusion after suddenly discontinuing gabapentin. These symptoms resolved after restarting gabapentin. Most of these individuals had a history of poly-substance abuse or used gabapentin to relieve symptoms of withdrawal from other substances.
+There are rare post-marketing reports of individuals experiencing mild withdrawal symptoms shortly after discontinuing higher than recommended doses of gabapentin used to treat illnesses for which the medicine is not approved. 
 
 Increased seizure frequency may occur in patients with seizure disorders if gabapentin is abruptly discontinued  
 
@@ -410,7 +333,7 @@ Our review of national essential medicine lists for medications recommended as f
 
 The treatment of neuropathic pain is pharmacologically based as there is scant evidence from high-quality placebo-controlled trials supporting the use of invasive procedures [@Dworkin2013] or psychological or behaviour-based therapies.
 
-For pharmacological interventions the evidence supporting this application is based upon our recent systematic review, meta-analysis and GRADE based clinical guideline formulation [@Finnerup2015]. The systematic review of the literature used a standardised review and data extraction protocol _(for the full protocol and detailed results see: Finnerup et al., 2015 [@Finnerup2015]; Appendix 2):_
+For pharmacological interventions the evidence supporting this application is based upon our recent systematic review, meta-analysis and GRADE-based clinical guideline formulation [@Finnerup2015]. The systematic review of the literature used a standardised review and data extraction protocol _(for the full protocol and detailed results see: Finnerup et al., 2015 [@Finnerup2015]; Appendix 2):_
 
 * Full reports of randomized, controlled, double-blind studies published in peer-reviewed journals between January, 1966, and April, 2013, were identified by searches of PubMed, Medline, the Cochrane Central Register of Controlled Trials, and Embase. An additional search up to Jan 31, 2014, retrieved papers from PubMed. Additional papers were identified from published reviews and the reference lists of selected papers.
 
@@ -434,7 +357,7 @@ The interventions considered were systemic or topical treatments (oral, sublingu
 
 We included randomized, double-blind, placebo controlled studies with parallel group or crossover study designs that had at least ten patients per group. We separately summarised enriched-enrolment, randomized withdrawal trials. We excluded studies published only as abstracts and included double-blind, active comparator trials of medicines generally proposed as first-line or second line treatments. The study outcome (positive or negative) was based on the effect on the primary outcome measure (i.e, neuropathic pain intensity). We excluded studies in which the primary outcome included a composite score of pain and paraesthesia or paraesthesia only.
 
-Studies were assessed for methodological quality by using the five-point Oxford Quality Scale [@Jadad1996]. A minimum score of 2 of 5 (randomized and double-blind study) was required for inclusion [@Jadad1996]. We also assessed the serious risk of bias relating to absence of allocation concealment, incomplete accounting of outcome events, selective outcome reporting, stopping early for benefit, use of invalidated outcome measures, and carry-over effects in crossover trials. We followed the 23-item Appraisal of Guidelines for Research and Evaluation (AGREE II) for developing and reporting recommendations [@Brouwers2010].
+Studies were assessed for methodological quality by using the five-point Oxford Quality Scale [@Jadad1996]. A minimum score of 2 of 5 (randomized and double-blind study) was required for inclusion [@Jadad1996]. We also assessed the serious risk of bias relating to absence of allocation concealment, incomplete accounting of outcome events, selective outcome reporting, stopping early for benefit, use of invalidated outcome measures, carry-over effects in crossover trials, and inadequate sample size. We followed the 23-item Appraisal of Guidelines for Research and Evaluation (AGREE II) for developing and reporting recommendations [@Brouwers2010].
 
 Number needed to treat (NNT) for 50% pain intensity reduction (or 30% pain reduction or at least moderate pain relief), calculated using the fixed-effects Mantel-Haenszel method, was the primary effect measure. NNT and NNH were calculated as the reciprocal values. Susceptibility to risk of publication bias was assessed by funnel plots [@Light1984], Egger’s regression [@Egger1997], and Duval and Tweedie’s non-parametric trim-and-fill approach [@Duval2000]. Heterogeneity in trials was presented as a L'Abb$\acute{e}$ plot [@LAbbe1987] and as the I^2 statistic, and heterogeneity, particularly that which was not easily explained by differences in medicine dose, diagnosis, and size of placebo response, was included in the GRADE recommendation.
 
@@ -464,7 +387,7 @@ The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). F
 \label{bias_2}
 \end{figure}
 
-Using the GRADE process we identified that tricyclic antidepressants (TCAs; mainly amitriptyline) [^4], serotonin–adrenaline re-uptake inhibitors (SNRIs; mainly duloxetine) [^5], pregabalin [^6] and gabapentin could be considered to be first-line medicines (Figure \ref{grade}, and Figure \ref{nnt}). Amitriptyline, a TCA, already features strongly on the WHO Model List of Essential Medicines, and shares its analgesic mechanism of action with other TCAs and SNRIs. Accordingly, all TCAs and SNRIs are contraindicated for use with each other, and this contraindication precludes combination therapy with these medications should patients not respond adequately to monotherapy. Because of the incompatibility of these first-line medicine classes, the evidence-base for the use of TCAs and SNRIs is not evaluated further in this section of the application [^7]. Instead, we provide updated information (based on our supplementary search in February 2016) only on the efficacy of the $\alpha 2 \delta$ calcium channel ligands gabapentin and pregabalin. This class of medicines is not contraindicated for use with TCAs or SNRIs, and so may be used alone or in combination therapy with the other two first-line classes of medications, as well as recommended second- and third-line therapies _(note: morphine increases the AUC of gabapentin)_. Indeed, combinations therapy is often used in the management of neuropathic pain in clinical practice [@Berger2012], and using two or more agents with proven efficacy, and which have complementary actions, has the potential to enhance efficacy and reduce side effects (through lower dosing of the individual agents) [@Gilron2013]. Only a few high-quality clinical trials of combination therapy for neuropathic pain have been conducted, and therefore GRADE evaluation was inconclusive [@Finnerup2015]. Nevertheless, the ability to use gabapentin together with the the other classes of evidence-based pharmacological therapies, provides clinicians with the scope to trial empirical combination therapy should monotherapy fail.  
+Using the GRADE process we identified that tricyclic antidepressants (TCAs; mainly amitriptyline) [^4], serotonin–adrenaline re-uptake inhibitors (SNRIs; mainly duloxetine) [^5], pregabalin [^6] and gabapentin could be considered to be first-line medicines (Figure \ref{grade}, and Figure \ref{nnt}). Amitriptyline, a TCA, already features strongly on the WHO Model List of Essential Medicines, and shares its analgesic mechanism of action with other TCAs and SNRIs. Accordingly, all TCAs and SNRIs are contraindicated for use with each other, and this contraindication precludes combination therapy with these medications should patients not respond adequately to monotherapy. Because of the incompatibility of these first-line medicine classes, the evidence-base for the use of TCAs and SNRIs is not evaluated further in this section of the application [^7]. Instead, we provide updated information (based on our supplementary search in February 2016) only on the efficacy of the $\alpha 2 \delta$ calcium channel ligands gabapentin and pregabalin. This class of medicines is not contraindicated for use with TCAs or SNRIs, and so may be used alone or in combination therapy with the other two first-line classes of medications, as well as recommended second- and third-line therapies _(note: morphine increases the AUC of gabapentin)_. Indeed, combinations therapy is often used in the management of neuropathic pain in clinical practice [@Berger2012], and using two or more agents with proven efficacy, and which have complementary actions, has the potential to enhance efficacy and reduce side effects (through lower dosing of the individual agents) [@Gilron2013]. Only a few high-quality clinical trials of combination therapy for neuropathic pain have been conducted, and therefore GRADE evaluation was inconclusive [@Finnerup2015]. Nevertheless, Gilron and colleagues reported that gabapentin used in combination with nortriptyline [@Gilron2009] or morphine [@Gilron2005] achieved better efficacy and at lower doses than when the agents were used as monotherapy. Thus, the ability to use gabapentin together with the the other classes of evidence-based pharmacological therapies, provides clinicians with the scope to trial empirical combination therapy should monotherapy fail.  
 
 [^7]: The supplementary literature search in 2016 identified one new  report on amitriptyline: Dinat et al., 2015 [@Dinat2015]. Dinat and colleagues compared amitriptyline and placebo in HIV-associated sensory neuropathy, and the outcome, which was associated with high placebo responses, was negative for amitriptyline.
 
@@ -506,13 +429,65 @@ Eight new reports were identified in the 2016 supplementary search of which one 
 
 **Gabapentin**
 
-No additional studies using gabapentin for neuropathic pain were identified in our supplementary search. In total, our assessment was based on 14 randomized controlled trials of gabapentin (900 to 3600 mg/day; nine positive). The trials were predominantly conducted in patients with post-herpetic neuralgia, painful polyneuropathy (mainly diabetic), spinal cord injury, post-amputation pain, and peripheral nerve injury. Combined NNT was 6.3 (95% CI: 5.0 to 8.3) for gabapentin. There was no evidence of a dose-response effect. 
+No additional studies using gabapentin for neuropathic pain were identified in our supplementary search. In total, our assessment was based on 14 randomized controlled trials of gabapentin (900 to 3600 mg/day; nine positive)[@Backonja1998; @Bone2002; @CTR9451008; @Gilron2005; @Gordh2008; @Gorson1999; @Hahn2004; @Levendoglu2004; @Rice2001; @Rintala2007; @Rowbotham1998; @Serpell2002; @Simpson2001; @Smith2005]. The trials were predominantly conducted in patients with post-herpetic neuralgia, painful polyneuropathy (mainly diabetic), spinal cord injury, post-amputation pain, and peripheral nerve injury. Detailed descriptions of individuals studies, along with bias assessments (including statistical power) are provided in Appendix 2. A summary of the bias assessment, derived from a 2014 Cochrane review of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [@Moore2014]) is shown in Figure \ref{cochrane_bias}. There is no evidence of systematic bias across the 14 studies; concerns over sample size, defined by Moore et al using a rigid cut-off of $<$200 participants, are mitigated by evidence that most studies classified as unclear or high risk for bias based on small sample size met or exceeded the minimum sample size calculated for the study (Backonja 1998 [@Backonja1998], Bone 2002 [@Bone2002], Gilron 2005 [@Gilron2005], Gordh 2008 [@Gordh2008], Gorson 1999 [@Gorson1999], and Levendoglu 2004 [@Levendoglu2004]; Appendix 2).  
 
-Our data are largely concordant with a recent Cochrane review that evaluated the evidence for the use of gabapentin in chronic neuropathic pain and fibromyalgia in adults [@Moore2014]. The authors concluded on the basis of second tier evidence that gabapentin was efficacious in post-herpetic neuralgia (NNT 8.0, 95% CI: 6.0 to 12) and painful diabetic neuropathy (NNT 5.9, 95% CI: 4.6 to 8.3). The authors concluded that there were insufficient data in other pain conditions, including fibromyalgia, to reach any reliable conclusion.
+\begin{figure}[ht]
+\centering
+\includegraphics[scale = 3]{./images/cochrane-summary}
+\captionsetup{justification=justified}
+\caption{Summary of the methodological quality of 14 studies of gabapentin for the managemengt of neuropathic pain included in the GRADE analysis. The summaries are derived from a 2014 Cochrane review of the evidence for the use of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [REF]. Studies by Backonja 1998, Bone 2002, Gilron 2005, Gordh 2008, Gorson 1999, and Levendoglu 2004 all met or exceeded the calculated sample size for the study; Appendix 2}
+\label{cochrane_bias}
+\end{figure}
+
+The combined NNT for gabapentin across the 14 studies was 6.3 (95% CI: 5.0 to 8.3), and there was no evidence of a dose-response effect. Figure \ref{rd_1} shows absolute risk differences between gabapentin and placebo arms in individual studies reporting dichotomous pain relief data (n = 8), and the pooled absolute risk difference across the 8 studies. Studies shown in the figure are grouped as low risk for allocation bias or unclear risk of allocation bias based on the assessment of allocation bias by Moore and colleagues in their 2014 Cochrane review [@Moore2014]. Figure \ref{rd_1} clearly shows no significant effect of allocation bias on the effect size. Efficacy data for each of the 14 studies data is provided in Appendix 3. 
+
+```{r efficacy_rr, eval = FALSE}
+
+############################################################
+#                                                          #
+#              Risk difference for gabapentin,             #
+#          see R script: efficacy_meta.analysis.R          #
+#                                                          #
+############################################################
+
+```
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale = 0.7]{./images/efficacy-RR}
+\captionsetup{justification=justified}
+\caption{Absolute risk difference (95\% CI) between gabapentin and placebo for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 8/14 studies reporting dichotomous pain relief data are shown. MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\label{rd_1}
+\end{figure}
+
+Unlike our GRADE analysis, which ignored the aetiology of the neuropathic pain, the Cochrane review by Moore and colleagues [@Moore2014] partitioned the analysis according to pain aetiology. Despite this difference in approach, our data are largely concordant with that of the Cochrane review. The authors concluded on the basis of second tier evidence that gabapentin was efficacious in post-herpetic neuralgia (NNT 8.0, 95% CI: 6.0 to 12) and painful diabetic neuropathy (NNT 5.9, 95% CI: 4.6 to 8.3). The authors concluded that there were insufficient data in other pain conditions, including fibromyalgia, to reach any reliable conclusion.
+
+**Head-to-head trials of gabapentin and tricyclic antidepressants**
+
+There are very few high-quality head-to-head trials of gabapentin against TCAs, and the results are conflicting. Rintala and coworkers [@Rintala2007] reported that gabapentin had lower efficacy than amitriptyline in the management of neuropathic pain resulting from spinal cord injury (no dichotomous pain data reported), while Chandra _et al._[@Chandra2006] and Morello _et al._[@Morello1999] reported no difference in treatment efficacy between gabapentin and nortriptyline or amitriptyline. The latter two studies reported dichotomous pain data, and the data are shown in Figure \ref{gaba-v-tca}. 
+
+```{r combo-v-tca, eval = FALSE}
+
+############################################################
+#                                                          #
+#           Risk difference for gabapentin vs TCAs         #
+#               see R script: combo_efficacy.R             #
+#                                                          #
+############################################################
+
+```
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale = 0.7]{./images/combo-RR}
+\captionsetup{justification=justified}
+\caption{Absolute risk difference (95\% CI) between gabapentin and amitriptyline (Morello 1999), and gabapentin and nortriptyline (Chandra 2006) for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over the TCAs. Data are shown for individuals studies (black squares), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 2 studies reporting dichotomous pain relief data are shown. DPN: painful diabetic polyneuropathy, PHN: post-herpetic neuralgia.}
+\label{gaba-v-tca}
+\end{figure}
 
 ## Review of harms and toxicity: summary of evidence on safety.
 
-The information on harms and toxicity was obtained from regulatory documents available from the Food and Drug Administration (FDA) [@NeurontinFDA2015], and European Medicines Agency (EMA) [@NeurontinEMA2013] for Neurontin (gabapentin, Pfizer Inc).
+The information on harms and toxicity was obtained from regulatory documents available from the Food and Drug Administration (FDA) [@NeurontinFDA2015], and European Medicines Agency (EMA) [@NeurontinEMA2013] for Neurontin (gabapentin, Pfizer Inc). Please refer to Appendices 6 and 7 for detailed information. 
 
 #### Contraindications
 
@@ -520,65 +495,81 @@ Gabapentin is contraindicated in patients who have demonstrated hypersensitivity
 
 #### Warnings and precautions
 
-**Drug reaction with eosinophilia and systemic symptoms (DRESS):** Although very rare, DRESS has been associated with use of gabapentin. Some of these reactions have been fatal or life-threatening. If signs or symptoms consistent with DRESS present, the patient should be evaluated immediately, and gabapentin discontinued if an alternative aetiology for the signs or symptoms cannot be established. 
-
-**Anaphylaxis and angioedema:** Gabapentin can cause anaphylaxis and angioedema after the first dose or at any time during treatment. Patients should discontinue using gabapentin and seek immediate medical care should they experience signs or symptoms of anaphylaxis or angioedema. 
-
-**Effects on driving and operating heavy machinery:** Patients taking gabapentin should not drive until they have gained sufficient experience to assess whether the medication impairs their ability to drive. Driving performance studies conducted with a pro-drug of gabapentin (gabapentin enacarbil, extended release) indicate that gabapentin may cause significant driving impairment. Prescribers and patients should be aware that patients’ ability to assess their own driving competence, as well as their ability to assess the degree of somnolence caused by gabapentin may be imperfect. The duration of the driving impairment after starting therapy with gabapentin is unknown. Whether the impairment is related to somnolence or other effects of gabapentin is unknown.
-
-Moreover, because gabapentin causes somnolence and dizziness patients should be advised not to operate complex machinery until they have gained sufficient experience on gabapentin to assess whether it impairs their
-ability to perform such tasks. 
-
-**Withdrawal precipitated seizure:** Anti-epileptic medicines should not be abruptly discontinued because of the possibility of increasing seizure frequency in individuals with epilepsy. In randomized controlled trials of gabapentin for epilepsy, the incidence of status epilepticus did not differ significantly between participants receiving gabapentin and those receiving placebo. This warning pertains primarily to the use of gabapentin in the context of managing epilepsy rather than neuropathic pain.
-
-**Suicidal behaviour and ideation:** Anti-epileptic medicines (AEDs), including gabapentin, increase the risk of suicidal thoughts or behaviour in patients taking these medicines for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behaviour, and/or any unusual changes in mood or behaviour. Pooled analyses of 199 placebo-controlled clinical trials (mono- and adjunctive therapy) of 11 different AEDs showed that patients randomized to one of the AEDs had approximately twice the risk of suicidal thinking or behaviour compared to patients randomized to placebo (adjusted relative risk 1.8, 95% CI: 1.2 to 2.7). 
-
-**Tumorigenic potential:** An oral carcinogenicity study of gabapentin in rats increased the incidence of pancreatic acinar cell. The clinical significance of this finding is unknown. 
-
-**Sudden and unexplained death in patients with epilepsy:**  Eight sudden and unexplained deaths were recorded among a cohort of 2203 epilepsy patients treated with gabapentin, a rate of 0.0038 deaths per patient-year. Although this rate exceeds that expected in a healthy population matched for age and sex, it is within the range of estimates for the incidence of sudden unexplained deaths in patients with epilepsy not receiving
-gabapentin.
-
-**Somnolence/sedation and dizziness:** In clinical trials for epilepsy, adults receiving doses of up to 1800mg daily of gabapentin reported somnolence, dizziness, and ataxia at a greater rate compared to those receiving placebo (19% in active agent versus 9% in placebo for somnolence; 17% in active agent versus 7% in placebo for dizziness; and 13% in active agent versus 6% in placebo for ataxia). In these trials somnolence, ataxia and fatigue were common adverse reactions leading to discontinuation of gabapentin in patients older than 12 years of age.
+Drug reaction with eosinophilia and systemic symptoms (DRESS), anaphylaxis and angioedema, driving and operating heavy machinery, somnolence and dizziness, withdrawal precipitated seizure, suicidal behaviour and ideation, tumorigenic potential, sudden and unexplained death in patients with epilepsy.
 
 #### Adverse events in trials for neuropathic pain
 
-Our analysis of adverse effects in trials of gabapentin for neuropathic pain was based on the 14 studies included in the meta-analysis by Finnerup and colleagues [@Finnerup2015] as our literature search in February 2016 did not identify additional studies. Of the 14 studies, one study used only a low dose of gabapentin (900mg) and two studies did not provide numbers of drop-outs due to side effect, thus the combined number needed to harm (NNH) was based on 11 studies (Figure \ref{nnh_1}). The NNH was calculated as the number of patients who needed to be treated for one patient to drop out because of adverse effects. The 95% confidence intervals (CIs) of the NNH were calculated as the reciprocal values of the 95% CIs for the absolute risk difference using the normal approximation. The combined NNH for gabapentin was 25.6 (95% CI: 15.3 to 78.6) [@Finnerup2015].
+Our analysis of adverse effects in trials of gabapentin for neuropathic pain was based on the 14 studies included in the meta-analysis by Finnerup and colleagues [@Finnerup2015] as our supplementary literature search in February 2016 did not identify additional studies. Of the 14 studies, one study used only a low dose of gabapentin (900mg) [@Gorson1999] and two studies did not provide comparative numbers of drop-outs due to side effect [@Gilron2005; @Bone2002], thus the combined number needed to harm (NNH) was based on 11 studies (see Figure \ref{rd_2} for absolute risk differences). The NNH was calculated as the number of patients who needed to be treated for one patient to drop out because of adverse effects. The 95% confidence intervals (CIs) of the NNH were calculated as the reciprocal values of the 95% CIs for the absolute risk difference using the normal approximation. The combined NNH for gabapentin was 25.6 (95% CI: 15.3 to 78.6) [@Finnerup2015].
+
+
+```{r withdrawal_rr, eval = FALSE}
+
+############################################################
+#                                                          #
+#              Risk difference for gabapentin,             #
+#             see R script: AE_meta.analysis.R             #
+#                                                          #
+############################################################
+
+```
 
 \begin{figure}[ht]
 \centering
-\includegraphics[scale = 0.7]{./images/combined-nnh}
+\includegraphics[scale = 0.7]{./images/adverse_events-RR}
 \captionsetup{justification=justified}
-\caption{Numbers needed to harm (NNH; 95\% CI) for trial drop-outs due to adverse effects. Data are derived from 11 trials of gabapentin for neuropathic pain. The bottom red diamond shows the combined effect across the 11 trials. The size of the filled squares indicate the relative number of individuals randomized in each trial.}
-\label{nnh_1}
+\caption{Withdrawal due to adverse reactions: Absolute risk difference (95\% CI) between gabapentin and placebo for study drop-outs as a result of adverse events. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 11/14 studies reporting withdrawal events due to adverse events are shown. DPN: painful diabetic polyneuropathy, HIVSN: painful HIV-asociated sensory neuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\label{rd_2}
 \end{figure}
 
-When examining specific adverse events, dizziness, somnolence (or drowsiness or sedation), and in a few studies peripheral oedema and confusion, had a prevalence $>$ 10% and a higher prevalence than in the placebo group. The NNH for dizziness was 5.1 (95% CI: 4.3 to 6.3) and for somnolence 7.1 (95% CI: 5.7 to 9.4) (Figures \ref{nnh_2} and \ref{nnh_3}).
+When examining specific adverse events, dizziness, somnolence (or drowsiness or sedation), and in a few studies peripheral oedema and confusion, had a prevalence $>$ 10% and a higher prevalence than in the placebo group. The NNH for dizziness was 5.1 (95% CI: 4.3 to 6.3) and for somnolence 7.1 (95% CI: 5.7 to 9.4) (see Figures \ref{rd_3} and \ref{rd_4} for absolute risk differences).
+
+```{r dizziness_rr, eval = FALSE}
+
+############################################################
+#                                                          #
+#              Risk difference for gabapentin,             #
+#          see R script: dizziness_meta.analysis.R         #
+#                                                          #
+############################################################
+
+```
 
 \begin{figure}[ht]
 \centering
-\includegraphics[scale = 0.7]{./images/dizziness-nnh}
+\includegraphics[scale = 0.7]{./images/dizziness-RR}
 \captionsetup{justification=justified}
-\caption{Numbers needed to harm (NNH; 95\% CI) for dizziness. Data are derived from nine trials of gabapentin for neuropathic pain. The bottom red diamond shows the combined effect across the nine trials (5.1, 95\% CI: 4.3 to 6.3). The size of the filled squares indicate the relative number of individuals randomized in each trial.}
-\label{nnh_2}
+\caption{Dizziness: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting dizziness. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting dizziness data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\label{rd_3}
 \end{figure}
 
+```{r somnolence_rr, eval = FALSE}
+
+############################################################
+#                                                          #
+#              Risk difference for gabapentin,             #
+#             see R script: AE_meta.analysis.R             #
+#                                                          #
+############################################################
+
+```
+
 \begin{figure}[ht]
 \centering
-\includegraphics[scale = 0.7]{./images/somnolence-nnh}
+\includegraphics[scale = 0.7]{./images/somnolence-RR}
 \captionsetup{justification=justified}
-\caption{Numbers needed to harm (NNH; 95\% CI) for somnolence. Data are derived from nine trials of gabapentin for neuropathic pain. The bottom red diamond shows the combined effect across the nine trials (7.1, 95\% CI: 5.7 to 9.4). The size of the filled squares indicate the relative number of individuals randomized in each trial.}
-\label{nnh_3}
+\caption{Somnolence: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting somnolence. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting somnolence data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\label{rd_4}
 \end{figure}
 
 In a Cochrane review of gabapentin in fibromyalgia and neuropathic pain [@Moore2014], 62% during gabapentin and 50% during placebo experienced at least one adverse event in 17 studies with 4002 participants. The risk ratio for adverse events was 1.25 (95% CI: 1.2 to 1.3), and the NNH was 8.6 (95% CI: 6.8 to 12). Serious adverse events were not more common for gabapentin than for placebo (risk ratio = 1.2, 95% CI: 0.8 to 1.7) [@Moore2014]. The NNH for somnolence, drowsiness, or sedation was 11 (95% CI: 9.4 to 14; 4125 participants), for dizziness 7.6 (95% CI: 6.6 to 8.8; 4125 participants), and for peripheral oedema 21 (95% CI: 16 to 30; 3220 participants). Gabapentin was associated with an increased risk of ataxia or gait disturbance with and NNH of 13 (95% CI: 9 to 24; 544 participants) [@Moore2014].
 
 ## Summary of efficacy and safety across first-line medications
 
-Table \ref{summary_1} summarises the benefits and harms of gabapentin based on our systematic review and meta-analysis. For comparison, we have also included the data for other medicines we recommended as first-line [@Finnerup2015]. Based on the balance of the evidence, we recommended gapapentin, pregabalin, TCAs and SNRIs as first-line treatments; the updated literature search in 2016 did not change our recommendation. When making our original recommendations, we stated that there was no evidence for any of the agents having superior efficacy in general, or for specific causes of neuropathic pain. Therefore, our recommendations applied to neuropathic pain in general. However, we also noted the paucity of clinical trials on cancer-related neuropathic pain, and the absence of trials in children.   
+Table \ref{summary_1} summarises the benefits and harms of gabapentin based on our systematic review and meta-analysis. For comparison, we have also included the data for other medicines we recommended as first-line [@Finnerup2015]. Based on the balance of the evidence, we recommended gapapentin, pregabalin, TCAs and SNRIs as first-line treatments; the updated literature search in 2016 did not change our recommendation. When making our original recommendations, we stated that there was no evidence for any of the agents having superior efficacy in general, or for specific causes of neuropathic pain; and nor did the updated search not alter our position on these issues. Therefore, our recommendations applied to neuropathic pain in general. However, we also noted the paucity of clinical trials on cancer-related neuropathic pain, and the absence of trials in children.   
 
 \begin{table}[ht]
 \centering
-\caption{Summary of efficacy and adverse events [10]}
+\caption{Summary of efficacy and adverse events reported by Finnerup et al., 2015 [10]}
 \label{summary_1}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lccccc@{}}
