@@ -173,7 +173,7 @@ The diagnosis of neuropathic pain can be established using a history and clinica
 \centering
 \includegraphics[scale = 0.5, angle = -90]{./images/grading}
 \captionsetup{justification=justified}
-\caption{Diagnosis and grading of diagnostic certainty of neuropathic pain. The level of \textit{"probable"} is usually sufficient to initiate treatment according to neuropathic pain guidelines. The level \textit{"definite"} is useful in specialist contexts and when a causal treatment of the underlying lesion or disease is an option. \textsuperscript{a} History, including pain descriptors, the presence of non-painful sensory symptoms, and aggravating and alleviating factors, suggestive of pain being related to a neurological lesion. The suspected lesion or disease is reported to be associated with neuropathic pain, including a temporal and spatial relationship representative of the condition. \textsuperscript{b} The pain distribution reported by the patient is consistent with the suspected lesion or disease. \textsuperscript{c} The area of sensory changes may extend beyond, be within, or overlap with the area of pain. Sensory loss is generally required but touch-evoked or thermal allodynia may be the only finding at bedside examination. \textsuperscript{d} The term \textit{"definite"} in this context means \textit{"probable neuropathic pain with confirmatory tests"}. Adapted from: Finnerup et al., 2016 [17].}
+\caption{Diagnosis and grading of diagnostic certainty of neuropathic pain. The level of \textit{"probable"} is usually sufficient to initiate treatment according to neuropathic pain guidelines. The level \textit{"definite"} is useful in specialist contexts and when a causal treatment of the underlying lesion or disease is an option. \textsuperscript{a} History, including pain descriptors, the presence of non-painful sensory symptoms, and aggravating and alleviating factors, suggestive of pain being related to a neurological lesion. The suspected lesion or disease is reported to be associated with neuropathic pain, including a temporal and spatial relationship representative of the condition. \textsuperscript{b} The pain distribution reported by the patient is consistent with the suspected lesion or disease. \textsuperscript{c} The area of sensory changes may extend beyond, be within, or overlap with the area of pain. Sensory loss is generally required but touch-evoked or thermal allodynia may be the only finding at bedside examination. \textsuperscript{d} The term \textit{"definite"} in this context means \textit{"probable neuropathic pain with confirmatory tests"}. Adapted from: Finnerup et al., 2016 [22].}
 \label{grading}
 \end{figure}
 
@@ -280,7 +280,7 @@ In the absence of a 'gold standard' for defining cases and a clinical code for r
 \centering
 \includegraphics[scale = 0.5]{./images/diabetes}
 \captionsetup{justification=justified}
-\caption{Estimated and projected number of cases of diabetes mellitus (blue) between 1985 and 2035, and the number of cases of painful diabetic polyneuropathy (orange) over the same time period based on conservative estimates of between 10 and 20\% of individuals with diabetes developing a painful neuropathy.}
+\caption{Estimated and projected number of cases of diabetes mellitus (blue) between 1985 and 2035, and the number of cases of painful diabetic polyneuropathy (orange) over the same time period based on conservative estimates of between 10 and 20\% of individuals with diabetes developing a painful neuropathy. Data sources: [37,39,40].}
 \label{diabetes}
 \end{figure}
 
@@ -305,7 +305,7 @@ Trauma also a major cause of nervous system injury, and hence neuropathic pain. 
 \centering
 \includegraphics[scale = 0.5]{./images/ghdx}
 \captionsetup{justification=justified}
-\caption{Disability Adjusted Life Years (DALY) in developed (orange), and developing (blue) countries associated with diabetes mellitus, HIV/AIDS, leprosy, road injuries, interpersonal violence, and forces of nature, war, and legal intervention for the period 1990 and 2013. The shaded areas show uncertainty estimates. Data were downloaded from \href{http://ghdx.healthdata.org}{Global Health Data Exchange: GHDx}  on 20 July 2016.}
+\caption{Disability Adjusted Life Years (DALY) in developed (orange), and developing (blue) countries associated with diabetes mellitus, HIV/AIDS, leprosy, road injuries, interpersonal violence, and forces of nature, war, and legal intervention for the period 1990 and 2013. The shaded areas show uncertainty estimates. Data were downloaded from \href{http://ghdx.healthdata.org}{Global Health Data Exchange: GHDx} on 20 July 2016.}
 \label{ghdx}
 \end{figure}
 
@@ -325,7 +325,7 @@ Our review of national essential medicine lists for medications recommended as f
 \centering
 \includegraphics[scale = 0.6, angle = -90]{./images/eml}
 \captionsetup{justification=justified}
-\caption{Percentage of national essential medicine lists (NEMLs) that included 0, 1, 2, or 3 medicine classes recommended for the treatment of neuropathic pain. Data are shown grouped according to World Bank income category and for all countries (n = 109, data from the Cook Islands, Nauru, and Niue were not included because the World Bank does not index them). The top panel shows medicine-classes recommended as first-line treatment, and the bottom panel shows second-line medicine classes. First-line medicine classes include: tricyclic antidepressants, serotonin and norepinephrine reuptake inhibitors, and $\alpha 2 \delta$ calcium channel ligands. Second-line medicine classes include: opioids (including tramadol) and topical agents (5\% lidocaine). There was a positive association between income category and the number of first-line and second-line medicine classes listed on NEMLs (corrected P $<$ 0.001). $\ast$ The tricyclic antidepressant amitriptyline was the only first-line medicine listed on the NEMLs of 32\% of low-income countries, 36\% of lower-middle income countries, 28\% of higher-middle income countries and 4\% of high-income countries. From: Kamerman et al., 2015 [13].}
+\caption{Percentage of national essential medicine lists (NEMLs) that included 0, 1, 2, or 3 medicine classes recommended for the treatment of neuropathic pain. Data are shown grouped according to World Bank income category and for all countries (n = 109, data from the Cook Islands, Nauru, and Niue were not included because the World Bank does not index them). The top panel shows medicine-classes recommended as first-line treatment, and the bottom panel shows second-line medicine classes. First-line medicine classes include: tricyclic antidepressants, serotonin and norepinephrine reuptake inhibitors, and $\alpha 2 \delta$ calcium channel ligands. Second-line medicine classes include: opioids (including tramadol) and topical agents (5\% lidocaine). There was a positive association between income category and the number of first-line and second-line medicine classes listed on NEMLs (corrected P $<$ 0.001). $\ast$ The tricyclic antidepressant amitriptyline was the only first-line medicine listed on the NEMLs of 32\% of low-income countries, 36\% of lower-middle income countries, 28\% of higher-middle income countries and 4\% of high-income countries. From: Kamerman et al., 2015 [18].}
 \label{eml}
 \end{figure}
 
@@ -345,7 +345,7 @@ For pharmacological interventions the evidence supporting this application is ba
 \centering
 \includegraphics[scale = 0.5]{./images/search-flow}
 \captionsetup{justification=justified}
-\caption{Flow chart of study selection. Updated from Finnerup et al., 2015 [3] in 26 February 2016.}
+\caption{Flow chart of study selection. Updated from Finnerup et al., 2015 [3] on 26 February 2016.}
 \label{flow_chart}
 \end{figure}
 
@@ -369,7 +369,7 @@ A total of 229 reports, across a number of agents, were included in the publishe
 
 [^3]: Tricyclic antidepressants (TCAs), serotonin-noradrenaline re-uptake inhibitor antidepressants (SNRIs), other antidepressants, pregabalin, gabapentin or gabapentin extended release and enacarbil, other anti-epileptics, tramadol, opioids, cannabinoids, lidocaine 5% patch, capsaicin high concentration patch and cream, botulinum toxin A, NMDA antagonists, mexiletine, miscellaneous topical treatments, newer systemic medicines, and combination therapies.
 
-The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). Funnel plots and Egger regression identified asymmetry. Computing theoretical missing studies using the _'trim-and-fill'_ method suggested about a 10% overstatement of treatment effects across all medicines assessed in the meta-analysis [Figure \ref{bias_1}; 34 theoretical missing studies, which adjusted the effect size from an odds ratio of 1.8 (95% CI 1.7 to 1.9), to 1.6 (95% CI: 1.5 to 1.7)]. Susceptibility to bias analysis of individual medicines/medicine classes confirmed that publication bias was unlikely to be a major confound of this evidence (Figure \ref{bias_2}).
+The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). Funnel plots and Egger regression identified asymmetry. Computing theoretical missing studies using the _'trim-and-fill'_ method suggested about a 10% overstatement of treatment effects across all medicines assessed in the meta-analysis [Figure \ref{bias_1}; 34 theoretical missing studies, which adjusted the effect size from an odds ratio of 1.8 (95% CI 1.7 to 1.9), to 1.6 (95% CI: 1.5 to 1.7)]. Susceptibility to bias analysis of individual medicines/medicine classes confirmed that publication bias was unlikely to be a major confound of this evidence (Figure \ref{bias_2}).[^3b]
 
 \begin{figure}[ht]
 \centering
@@ -383,7 +383,7 @@ The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). F
 \centering
 \includegraphics[scale = 0.54, angle = -90]{./images/bias-2}
 \captionsetup{justification=justified}
-\caption{Data are number, unless otherwise indicated. $\ast$ Number of comparisons with placebo in published trials and unpublished trials included in the meta-analysis; results from registries were included if they reported numbers of responders. $\dag$ Total number of patients treated with active treatment and placebo; patients were counted twice if the study had a crossover design. $\ddag$ Number of patients needed to be treated in a new study showing no effect to make the number needed to treat (NNT) greater than 11, which is the cut-off for clinical relevance; susceptibility to publication bias implies that a new study with fewer than 400 participants with no effect might increase the NNT to greater than 11. $\mathbb{S}$ Including gabapentin extended release and enacarbil. Adapted from: Finnerup et al., 2015 [3].}
+\caption{Analysis of susceptibility to bias in published and unpublished trials. Data are number, unless otherwise indicated. $\ast$ Number of comparisons with placebo in published trials and unpublished trials included in the meta-analysis; results from registries were included if they reported numbers of responders. $\dag$ Total number of patients treated with active treatment and placebo; patients were counted twice if the study had a crossover design. $\ddag$ Number of patients needed to be treated in a new study showing no effect to make the number needed to treat (NNT) greater than 11, which is the cut-off for clinical relevance; susceptibility to publication bias implies that a new study with fewer than 400 participants with no effect might increase the NNT to greater than 11. $\mathbb{S}$ Including gabapentin extended release and enacarbil. NNT was calculated for 50% pain intensity reduction (or 30% pain reduction or at least moderate pain relief where 50% relief were not available). Adapted from: Finnerup et al., 2015 [3]. \footnotesize{\textbf{Note:} The grouping of gabapentin with gabapentin extended release and enacarbil in this figure means that the NNT data are not directly comparable to gabapentin NNT data reported in the text and other figures. Other agents NNT values also may differ from those in this figure as a result of the updated literature search in February 2016.}}
 \label{bias_2}
 \end{figure}
 
@@ -435,7 +435,7 @@ No additional studies using gabapentin for neuropathic pain were identified in o
 \centering
 \includegraphics[scale = 3]{./images/cochrane-summary}
 \captionsetup{justification=justified}
-\caption{Summary of the methodological quality of 14 studies of gabapentin for the managemengt of neuropathic pain included in the GRADE analysis. The summaries are derived from a 2014 Cochrane review of the evidence for the use of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [REF]. Studies by Backonja 1998, Bone 2002, Gilron 2005, Gordh 2008, Gorson 1999, and Levendoglu 2004 all met or exceeded the calculated sample size for the study; Appendix 2}
+\caption{Summary of the methodological quality of 14 studies of gabapentin for the managemengt of neuropathic pain included in the GRADE analysis. The summaries are derived from a 2014 Cochrane review of the evidence for the use of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [49]. Studies by Backonja 1998 [74], Bone 2002 [75], Gilron 2005 [66], Gordh 2008 [77], Gorson 1999 [78], and Levendoglu 2004 [80] all met or exceeded the calculated sample size for the study; Appendix 2}
 \label{cochrane_bias}
 \end{figure}
 
@@ -456,7 +456,7 @@ The combined NNT for gabapentin across the 14 studies was 6.3 (95% CI: 5.0 to 8.
 \centering
 \includegraphics[scale = 0.7]{./images/efficacy-RR}
 \captionsetup{justification=justified}
-\caption{Absolute risk difference (95\% CI) between gabapentin and placebo for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 8/14 studies reporting dichotomous pain relief data are shown. MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\caption{Absolute risk difference (95\% CI) between gabapentin and placebo for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 8/14 studies reporting dichotomous pain relief data are shown. MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury. Data sources: [3,49].}
 \label{rd_1}
 \end{figure}
 
@@ -481,7 +481,7 @@ There are very few high-quality head-to-head trials of gabapentin against TCAs, 
 \centering
 \includegraphics[scale = 0.7]{./images/combo-RR}
 \captionsetup{justification=justified}
-\caption{Absolute risk difference (95\% CI) between gabapentin and amitriptyline (Morello 1999), and gabapentin and nortriptyline (Chandra 2006) for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over the TCAs. Data are shown for individuals studies (black squares), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 2 studies reporting dichotomous pain relief data are shown. DPN: painful diabetic polyneuropathy, PHN: post-herpetic neuralgia.}
+\caption{Absolute risk difference (95\% CI) between gabapentin and amitriptyline (Morello 1999 [89]), and gabapentin and nortriptyline (Chandra 2006 [88]) for the management of neuropathic pain. Positive values indicate greater benefit for gabapentin over the TCAs. Data are shown for individuals studies (black squares), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 2 studies reporting dichotomous pain relief data are shown. DPN: painful diabetic polyneuropathy, PHN: post-herpetic neuralgia. Data sources: [3,49].}
 \label{gaba-v-tca}
 \end{figure}
 
@@ -517,7 +517,7 @@ Our analysis of adverse effects in trials of gabapentin for neuropathic pain was
 \centering
 \includegraphics[scale = 0.7]{./images/adverse_events-RR}
 \captionsetup{justification=justified}
-\caption{Withdrawal due to adverse reactions: Absolute risk difference (95\% CI) between gabapentin and placebo for study drop-outs as a result of adverse events. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 11/14 studies reporting withdrawal events due to adverse events are shown. DPN: painful diabetic polyneuropathy, HIVSN: painful HIV-asociated sensory neuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\caption{Withdrawal due to adverse reactions: Absolute risk difference (95\% CI) between gabapentin and placebo for study drop-outs as a result of adverse events. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 11/14 studies reporting withdrawal events due to adverse events are shown. DPN: painful diabetic polyneuropathy, HIVSN: painful HIV-asociated sensory neuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury. Data sources: [3,49].}
 \label{rd_2}
 \end{figure}
 
@@ -538,7 +538,7 @@ When examining specific adverse events, dizziness, somnolence (or drowsiness or 
 \centering
 \includegraphics[scale = 0.7]{./images/dizziness-RR}
 \captionsetup{justification=justified}
-\caption{Dizziness: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting dizziness. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting dizziness data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\caption{Dizziness: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting dizziness. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting dizziness data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury. Data source: [49].}
 \label{rd_3}
 \end{figure}
 
@@ -557,7 +557,7 @@ When examining specific adverse events, dizziness, somnolence (or drowsiness or 
 \centering
 \includegraphics[scale = 0.7]{./images/somnolence-RR}
 \captionsetup{justification=justified}
-\caption{Somnolence: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting somnolence. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting somnolence data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury.}
+\caption{Somnolence: Absolute risk difference (95\% CI) between gabapentin and placebo for participants reporting somnolence. Positive values indicate greater harm for gabapentin over placebo. Data are shown for individuals studies (black squares), subgroup effects (low and unclear risk of allocation bias; blue diamonds), and the overall effect (red diamond). The size of the filled squares indicate the relative number of individuals randomized in each trial. Only data from 9/14 studies reporting somnolence data are shown. DPN: painful diabetic polyneuropathy, MIXED: various causes of neuropathic pain, PHN: post-herpetic neuralgia, POSTAMP: post-amputation pain, PNI: peripheral nerve injury, PPN: painful polyneuropathy, SCI: spinal cord injury. Data source: [49].}
 \label{rd_4}
 \end{figure}
 
@@ -569,7 +569,7 @@ Table \ref{summary_1} summarises the benefits and harms of gabapentin based on o
 
 \begin{table}[ht]
 \centering
-\caption{Summary of efficacy and adverse events reported by Finnerup et al., 2015 [10]}
+\caption{Summary of efficacy and adverse events reported by Finnerup et al., 2015 [3]}
 \label{summary_1}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lccccc@{}}
