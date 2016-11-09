@@ -11,7 +11,7 @@ ACCESSORYFILES = 	diabetes.pdf ghdx.pdf nnt.pdf adverse_events-RR.pdf \
 					somnolence-RR.pdf \
 					availability.RData cost_unit.RData cost_ddd.RData \
 					cost_mdd.RData nice_cost.RData nice_qaly20k.RData \
-					nice_qaly30k.RData reg_approval.RData
+					nice_qaly30k.RData reg_approval.RData grade_summary.RData
 APPENDICES = 	appendices.pdf
 
 all: $(EXECSUMMARY) $(APPLICATION) $(ACCESSORYFILES) $(APPENDICES)
@@ -28,7 +28,7 @@ application.pdf: 	application.Rmd diabetes.pdf ghdx.pdf nnt.pdf \
 					efficacy-RR.pdf somnolence-RR.pdf \
 					availability.RData cost_unit.RData cost_ddd.RData \
 					cost_mdd.RData nice_cost.RData nice_qaly20k.RData \
-					nice_qaly30k.RData reg_approval.RData
+					nice_qaly30k.RData reg_approval.RData grade_summary.RData
 	Rscript -e "rmarkdown::render(input = '$<')"
 
 # Generate accessory-files
@@ -67,6 +67,8 @@ data/nice_qaly20k.RData: nice_qaly20k.R
 data/nice_qaly30k.RData: nice_qaly30k.R
 	Rscript "$<"
 data/reg_approval.RData: reg_approval.R
+	Rscript "$<"
+data/grade_summary.RData: grade_summary.R
 	Rscript "$<"
 
 # Generate appendices
