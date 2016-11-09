@@ -935,7 +935,7 @@ Pharmacopoeial standards for gabapentin are included in the:
 
 - European Pharmacopoeia (PhEur)
 
-****
+\newpage
 
 ## Source files and citation information
 
