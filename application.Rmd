@@ -169,7 +169,7 @@ We are requesting the inclusion of gabapentin as an individual medicine.
 The diagnosis of neuropathic pain can be established using a history and clinical examination, and without the need for specialised equipment or facilities [@Finnerup2016; @Haanpaa2009; @Haanpaa2011]. Figure \ref{grading} outlines the diagnostic process and how each step informs the level of diagnostic certainty [@Finnerup2016]. Like the diagnosis, monitoring of treatment outcome can be performed without specialised equipment or facilities. Readily available clinical screening tools such as the Douleur Neuropathique en 4 questions (DN4), Leeds Assessment of Neuropathic Symptoms and Signs (LANSS), and painDETECT can be used to assist in diagnosing pain of neuropathic origin. These tools have been translated and validated into numerous languages [@Bennett2007]. 
 
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.5, angle = -90]{./images/grading}
 \captionsetup{justification=justified}
@@ -276,7 +276,7 @@ In the absence of a 'gold standard' for defining cases and a clinical code for r
 
 ```
 
-\begin{figure}
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.5]{./images/diabetes}
 \captionsetup{justification=justified}
@@ -301,7 +301,7 @@ Trauma also a major cause of nervous system injury, and hence neuropathic pain. 
 
 ```
 
-\begin{figure}
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.5]{./images/ghdx}
 \captionsetup{justification=justified}
@@ -321,7 +321,7 @@ The actual number who could benefit will be higher because (a) many more will ac
 
 Our review of national essential medicine lists for medications recommended as first- or second-line treatments for neuropathic pain identified that the majority of countries reviewed only had one class of first-line treatment listed (typically a TCA), and about 40% had no second-line treatments listed (Figure \ref{eml}. Of the countries listing two or more first-line medications, the most commonly listed agent was gabapentin (30% of all countries) [@Kamerman2015]. Most of the countries did, however, list morphine (95%), a medication on the Model List with evidence supporting its use in the treatment of neuropathic pain. But, the evidence supporting the use of morphine and other strong opioids in neuropathic pain is of low quality [@McNicol2013; @Attal2010], and this information, together with questions about the safety of strong opioids (e.g., high rates of adverse effects and study withdrawal due to adverse effects, and dependency concerns) means that strong opioids typically are recommended as third-line treatments for neuropathic pain [@Finnerup2015; @Attal2010; @NICE2013]. Thus, the majority of the 104 low and middle income countries' essential medicine lists had a very limited scope of first- and second-line treatments for neuropathic pain. This limitation is counter to WHO Resolution EB134.R7 of 2014 [@WHO2014], which urges member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_. 
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.6, angle = -90]{./images/eml}
 \captionsetup{justification=justified}
@@ -341,7 +341,7 @@ For pharmacological interventions the evidence supporting this application is ba
 
 * For the purposes of this application a supplementary search of PubMed was conducted on February 26, 2016. Search terms included: _[medicine name]_ pain (randomised or randomized); neuropathic pain and (randomised or randomized); neuralgia and (randomised or randomized); neuropathy pain and (randomised or randomized); not neuropathic. Figure \ref{flow_chart} shows the combined flow chart for study selection from the original search and the update.
 
-\begin{figure}
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.5]{./images/search-flow}
 \captionsetup{justification=justified}
@@ -355,7 +355,7 @@ The target population was patients of any age with neuropathic pain according to
 
 The interventions considered were systemic or topical treatments (oral, sublingual, oropharyngeal, intranasal, topical, subcutaneous, intradermal, and smoking) with at least 3 weeks of treatment. Single-administration treatments with long-term efficacy (high-concentration capsaicin 8% patches, botulinum toxin) were included if there was a minimum follow-up of 3 weeks. Studies in which intramuscular, intravenous, or neuroaxial routes of administration were used and those of pre-emptive analgesia were excluded.
 
-We included randomized, double-blind, placebo controlled studies with parallel group or crossover study designs that had at least ten patients per group. We separately summarised enriched-enrolment, randomized withdrawal trials. We excluded studies published only as abstracts and included double-blind, active comparator trials of medicines generally proposed as first-line or second line treatments. The study outcome (positive or negative) was based on the effect on the primary outcome measure (i.e, neuropathic pain intensity). We excluded studies in which the primary outcome included a composite score of pain and paraesthesia or paraesthesia only.
+We included randomized, double-blind, placebo controlled studies with parallel group or crossover study designs that had at least ten patients per group. We separately summarised enriched-enrolment, randomized withdrawal trials. We excluded studies published only as abstracts and included double-blind, active comparator trials of medicines generally proposed as first-line or second line treatments. The study outcome (positive or negative) was based on the effect on the primary outcome measure (i.e, neuropathic pain intensity). **We excluded studies in which the primary outcome measure was not pain**, including those studies that used a composite score of pain and paraesthesia or paraesthesia only (e.g., Rao et al., 2007 DOI: [10.1002/cncr.23008](http://dx.doi.org/10.1002/cncr.23008)).
 
 Studies were assessed for methodological quality by using the five-point Oxford Quality Scale [@Jadad1996]. A minimum score of 2 of 5 (randomized and double-blind study) was required for inclusion [@Jadad1996]. We also assessed the serious risk of bias relating to absence of allocation concealment, incomplete accounting of outcome events, selective outcome reporting, stopping early for benefit, use of invalidated outcome measures, carry-over effects in crossover trials, and inadequate sample size. We followed the 23-item Appraisal of Guidelines for Research and Evaluation (AGREE II) for developing and reporting recommendations [@Brouwers2010].
 
@@ -373,7 +373,7 @@ The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). F
 
 [^3b]: The grouping of gabapentin with gabapentin extended release /enacarbil and the updating of the literature in February 2016 means that NNT data reported in Figure \ref{bias_2} are not directly comparable to those reported elsewhere in the document.
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.4]{./images/bias-1}
 \captionsetup{justification=justified}
@@ -381,7 +381,7 @@ The mean Oxford Quality Scale (Jadad) score was 4.1 (SD: 0.87, range: 2 to 5). F
 \label{bias_1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.54, angle = -90]{./images/bias-2}
 \captionsetup{justification=justified}
@@ -393,7 +393,7 @@ Using the GRADE process we identified that tricyclic antidepressants (TCAs; main
 
 [^7]: The supplementary literature search in 2016 identified one new  report on amitriptyline: Dinat et al., 2015 [@Dinat2015]. Dinat and colleagues compared amitriptyline and placebo in HIV-associated sensory neuropathy, and the outcome, which was associated with high placebo responses, was negative for amitriptyline.
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \includegraphics[scale = 0.54, angle = -90]{./images/grade-finnerup-2015}
 \captionsetup{justification=justified}
 \caption{Summary of the GRADE recommendations by Finnerup et al., 2015 [3] for first-line medications for managing neuropathic pain.}
@@ -416,7 +416,7 @@ Using the GRADE process we identified that tricyclic antidepressants (TCAs; main
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \includegraphics[scale = 0.45]{./images/nnt}
 \captionsetup{justification=justified}
 \caption{Mean (95\% CI) numbers needed to treat (NNT) for first-line medications recommended by Finnerup et al., 2015 [3]. The size of the coloured circles indicate the relative number of individuals randomized in trials for a particular medication. Data from Finnerup et al., 2015 were updated to include two new trials in the tricyclic antidepressant class, and gabapentin extended release and enacarbil were excluded from the gabapentin group.}
@@ -431,9 +431,9 @@ Eight new reports were identified in the 2016 supplementary search of which one 
 
 **Gabapentin**
 
-No additional studies using gabapentin for neuropathic pain were identified in our supplementary search. In total, our assessment was based on 14 randomized controlled trials of gabapentin (900 to 3600 mg/day; nine positive)[@Backonja1998; @Bone2002; @CTR9451008; @Gilron2005; @Gordh2008; @Gorson1999; @Hahn2004; @Levendoglu2004; @Rice2001; @Rintala2007; @Rowbotham1998; @Serpell2002; @Simpson2001; @Smith2005]. The trials were predominantly conducted in patients with post-herpetic neuralgia, painful polyneuropathy (mainly diabetic), spinal cord injury, post-amputation pain, and peripheral nerve injury. Detailed descriptions of individuals studies, along with bias assessments (including statistical power) are provided in Appendix 2. A summary of the bias assessment, derived from a 2014 Cochrane review of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [@Moore2014]) is shown in Figure \ref{cochrane_bias}. There is no evidence of systematic bias across the 14 studies; concerns over sample size, defined by Moore et al using a rigid cut-off of $<$200 participants, are mitigated by evidence that most studies classified as unclear or high risk for bias based on small sample size met or exceeded the minimum sample size calculated for the study (Backonja 1998 [@Backonja1998], Bone 2002 [@Bone2002], Gilron 2005 [@Gilron2005], Gordh 2008 [@Gordh2008], Gorson 1999 [@Gorson1999], and Levendoglu 2004 [@Levendoglu2004]; Appendix 2).  
+No additional studies using gabapentin for neuropathic pain were identified in our supplementary search. In total, our assessment was based on 14 randomized controlled trials of gabapentin (900 to 3600 mg/day; nine positive)[@Backonja1998; @Bone2002; @CTR9451008; @Gilron2005; @Gordh2008; @Gorson1999; @Hahn2004; @Levendoglu2004; @Rice2001; @Rintala2007; @Rowbotham1998; @Serpell2002; @Simpson2001; @Smith2005]. The trials were predominantly conducted in patients with post-herpetic neuralgia, painful polyneuropathy (mainly diabetic), spinal cord injury, post-amputation pain, and peripheral nerve injury. Detailed descriptions of individuals studies, along with bias assessments (including statistical power) are provided in Appendix 2. A summary of the GRADE assessment of the evidence is provided in Table \ref{grade_summary}. A summary of the bias assessment, derived from a 2014 Cochrane review of gabapentin for neuropathic pain and fibromyalgia by Moore and colleagues [@Moore2014]) is shown in Figure \ref{cochrane_bias}. There is no evidence of systematic bias across the 14 studies; concerns over sample size, defined by Moore et al using a rigid cut-off of $<$200 participants, are mitigated by evidence that most studies classified as unclear or high risk for bias based on small sample size met or exceeded the minimum sample size calculated for the study (Backonja 1998 [@Backonja1998], Bone 2002 [@Bone2002], Gilron 2005 [@Gilron2005], Gordh 2008 [@Gordh2008], Gorson 1999 [@Gorson1999], and Levendoglu 2004 [@Levendoglu2004]; Appendix 2).  
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 3]{./images/cochrane-summary}
 \captionsetup{justification=justified}
@@ -454,7 +454,7 @@ The combined NNT for gabapentin across the 14 studies was 6.3 (95% CI: 5.0 to 8.
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.7]{./images/efficacy-RR}
 \captionsetup{justification=justified}
@@ -479,7 +479,7 @@ There are very few high-quality head-to-head trials of gabapentin against TCAs, 
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.7]{./images/combo-RR}
 \captionsetup{justification=justified}
@@ -515,7 +515,7 @@ Our analysis of adverse effects in trials of gabapentin for neuropathic pain was
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.7]{./images/adverse_events-RR}
 \captionsetup{justification=justified}
@@ -536,7 +536,7 @@ When examining specific adverse events, dizziness, somnolence (or drowsiness or 
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.7]{./images/dizziness-RR}
 \captionsetup{justification=justified}
@@ -555,7 +555,7 @@ When examining specific adverse events, dizziness, somnolence (or drowsiness or 
 
 ```
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.7]{./images/somnolence-RR}
 \captionsetup{justification=justified}
@@ -567,19 +567,19 @@ In a Cochrane review of gabapentin in fibromyalgia and neuropathic pain [@Moore2
 
 ## Summary of efficacy and safety across first-line medications
 
-Table \ref{summary_1} summarises the benefits and harms of gabapentin based on our systematic review and meta-analysis. For comparison, we have also included the data for other medicines we recommended as first-line [@Finnerup2015]. Based on the balance of the evidence, we recommended gapapentin, pregabalin, TCAs and SNRIs as first-line treatments; the updated literature search in 2016 did not change our recommendation. When making our original recommendations, we stated that there was no evidence for any of the agents having superior efficacy in general, or for specific causes of neuropathic pain; and nor did the updated search not alter our position on these issues. Therefore, our recommendations applied to neuropathic pain in general. However, we also noted the paucity of clinical trials on cancer-related neuropathic pain, and the absence of trials in children.   
+Tables \ref{summary_1} summarises the benefits and harms of gabapentin based on our systematic review and meta-analysis. For comparison, we have also included the data for other medicines we recommended as first-line [@Finnerup2015] (a more granular summary of the GRADE analysis for gabapentin only is provided in Table \ref{grade_summary}). Based on the balance of the evidence, we recommended gapapentin, pregabalin, TCAs and SNRIs as first-line treatments; the updated literature search in 2016 did not change our recommendation. When making our original recommendations, we stated that there was no evidence for any of the agents having superior efficacy in general, or for specific causes of neuropathic pain; and nor did the updated search not alter our position on these issues. Therefore, our recommendations applied to neuropathic pain in general. However, we also noted the paucity of clinical trials on cancer-related neuropathic pain, and the absence of trials in children.   
 
-\begin{table}[ht]
+\begin{table}[!htbp]
 \centering
 \caption{Summary of efficacy and adverse events reported by Finnerup et al., 2015 [3]}
 \label{summary_1}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lccccc@{}}
 \toprule
-\multirow{2}{*}{}            & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Number needed to treat\\ \footnotesize{(50\% pain relief)}\end{tabular}} & \multicolumn{4}{c}{Number needed to harm}  \\ \cmidrule(l){3-6} 
+\multirow{2}{*}{}            & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Number needed to treat\\ \footnotesize{(50\% / 30\% / moderate pain relief)}\end{tabular}} & \multicolumn{4}{c}{Number needed to harm}  \\ \cmidrule(l){3-6} 
                              &                                         & Major$^{\ast}$ & Dizziness & Somnolence & Dry mouth \\ \bottomrule
 TCA           & 4.3                                     & 13.4  & 10.3      & 9.5        & 4.8       \\
-Gabapentin$^{\dag}$ & 6.3                                     & 24.5  & 5.1       & 7.1        & -         \\
+Gabapentin$^{\dag}$ & 6.3                                     & 25.6  & 5.1       & 7.1        & -         \\
 Pregabalin                   & 8.8                                     & 13.9  & -         & -          & -         \\
 SNRI             & 6.4                                     & 11.8  & -         & -          & -         \\ \bottomrule
 \multicolumn{6}{l}{\footnotesize{\begin{tabular}[c]{@{}l@{}}TCA: Tricyclic antidepressants; SNRI: Serotonin and noradrenaline reuptake inhibitors;\\ $\ast$ : Withdrawal from study as a result of adverse events;\\ $\dag$ : Excluding gabapentin extended release / encarbil\end{tabular}}} \\ 
@@ -589,7 +589,40 @@ SNRI             & 6.4                                     & 11.8  & -         &
 
 In their guideline on the management of neuropathic pain, NICE generated a heat-map of relative benefits and harms of the medications they assessed [@NICE2013]. Figure \ref{nice} presents a summary of that figure that only includes medications recommended as first-line therapy by NICE [@NICE2013] and others [@Finnerup2015; @SIGN2013; @Attal2010]. 
 
-\begin{figure}[h!]
+```{r grade_summary, results = 'asis'}
+
+############################################################
+#                                                          #
+#                 Gabapentin GRADE summary                 #
+#                                                          #
+############################################################
+
+# Load data
+load('./data/grade_summary.RData')
+
+# Make xtable
+grade_summary <- xtable(grade,
+                        caption = 'Summary of the GRADE assessment and recommendation for gabapentin',
+                        label = 'grade_summary',
+                        align = c('lp{9cm}', 'lp{9cm}',
+                                  'lp{9cm}'))
+# Row shading
+addtorow <- list(pos = list(2, 4, 6, 8, 10, 12,
+                            14, 16, 18, 20), 
+                 command =
+                     rep("\\rowcolor[gray]{.9}", 10))
+
+# Print table
+print(grade_summary,
+      table.placement = '!htbp',
+      add.to.row = addtorow,
+      sanitize.text.function = function(x) {x})
+
+# Clean environment
+rm(list = ls())
+```
+
+\begin{figure}[!htbp]
 \centering
 \includegraphics[scale = 0.5]{./images/nice-summary}
 \captionsetup{justification=justified}
@@ -634,6 +667,7 @@ addtorow <- list(pos = list(0, 1, 2),
 
 # Print table
 print(xtab_cost_unit,
+      table.placement = '!htbp',
       add.to.row = addtorow)
 
 # Clean environment
@@ -669,6 +703,7 @@ addtorow <- list(pos = list(0, 1, 2),
 
 # Print table
 print(xtab_cost_ddd,
+      table.placement = '!htbp',
       add.to.row = addtorow)
 
 # Clean environment
@@ -705,6 +740,7 @@ addtorow <- list(pos = list(0, 1, 2),
 
 # Print table
 print(xtab_cost_mdd,
+      table.placement = '!htbp',
       add.to.row = addtorow)
 
 # Clean environment
@@ -756,7 +792,8 @@ addtorow <- list(pos = list(1),
 # Print table
 print(xtab_nice_cost,
       # include this weird function to use maths in the rows/columns
-      sanitize.text.function = function(x) x, 
+      sanitize.text.function = function(x) x,
+      table.placement = '!htbp',
       add.to.row = addtorow)
 
 # Clean environment
@@ -795,6 +832,7 @@ addtorow <- list(pos = list(1),
 print(xtab_nice_qaly20k,
       # include this weird function to use maths in the rows/columns
       sanitize.text.function = function(x) x, 
+      table.placement = '!htbp',
       add.to.row = addtorow)
 
 # Clean environment
@@ -834,7 +872,7 @@ print(xtab_nice_qaly30k,
       # include this weird function to use maths in the rows/columns
       sanitize.text.function = function(x) x, 
       add.to.row = addtorow,
-      table.placement = 'h!')
+      table.placement = '!htbp')
 
 # Clean environment
 rm(list = ls())
@@ -880,7 +918,7 @@ addtorow <- list(pos = list(0, 2, 4),
 # Print table
 print(xtab_regulatory,
       add.to.row = addtorow,
-      table.placement = 'ht')
+      table.placement = '!htbp')
 
 # Clean environment
 rm(list = ls())
@@ -907,8 +945,7 @@ All R and RMarkdown scripts, Latex templates, and associated files used to gener
 
 _Cite this article as:_  
 
-Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
-
+Kamerman PR, Bennett MI, Ciampi de Andrade D, Finley GA, Finnerup NB, De Lima L, Haroutounian S, Nguelefack TB, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
 
 \newpage
 
