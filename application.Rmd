@@ -60,9 +60,11 @@ We are applying for the _**inclusion of gabapentin as an analgesic agent for the
 #### Supporting organizations 
 _(see Appendix 1 for copies of the letters of support)_
 
-- World Medical Association 
-
 - International Society for Physical and Rehabilitative Medicine
+
+- World Federation of Societies of Anaesthesiology
+
+- World Medical Association 
 
 - National Pain Societies
     - Belgian Pain Society
@@ -319,7 +321,7 @@ The effectiveness of medicines used in neuropathic pain was recently reviewed sy
 
 The actual number who could benefit will be higher because (a) many more will achieve important reductions in pain severity, though less than 50%; (b) TCAs are contraindicated in many people – for example, they are not recommended for use in older adults [@Beer2015]; (c) combination of gabapentin and TCA are effective and recommended [@NICE2013; @SIGN2013]; and (d) these NNTs are calculated after adjusting for placebo and other non-specific effects, so the actual effectiveness is greater than they suggest.
 
-Our review of national essential medicine lists for medications recommended as first- or second-line treatments for neuropathic pain identified that the majority of countries reviewed only had one class of first-line treatment listed (typically a TCA), and about 40% had no second-line treatments listed (Figure \ref{eml}. Of the countries listing two or more first-line medications, the most commonly listed agent was gabapentin (30% of all countries) [@Kamerman2015]. Most of the countries did, however, list morphine (95%), a medication on the Model List with evidence supporting its use in the treatment of neuropathic pain. But, the evidence supporting the use of morphine and other strong opioids in neuropathic pain is of low quality [@McNicol2013; @Attal2010], and this information, together with questions about the safety of strong opioids (e.g., high rates of adverse effects and study withdrawal due to adverse effects, and dependency concerns) means that strong opioids typically are recommended as third-line treatments for neuropathic pain [@Finnerup2015; @Attal2010; @NICE2013]. Thus, the majority of the 104 low and middle income countries' essential medicine lists had a very limited scope of first- and second-line treatments for neuropathic pain. This limitation is counter to WHO Resolution EB134.R7 of 2014 [@WHO2014], which urges member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_. 
+Our review of national essential medicine lists for medications recommended as first- or second-line treatments for neuropathic pain identified that the majority of countries reviewed only had one class of first-line treatment listed (typically a TCA), and about 40% had no second-line treatments listed (Figure \ref{eml}. Of the countries listing two or more first-line medications, the most commonly listed agent was gabapentin (30% of all countries) [@Kamerman2015]. Most of the countries did, however, list morphine (95%), a medication on the Model List with evidence supporting its use in the treatment of neuropathic pain. But, the evidence supporting the use of morphine and other strong opioids in neuropathic pain is of low quality [@McNicol2013; @Attal2010], and this information, together with questions about the safety of strong opioids (e.g., high rates of adverse effects and study withdrawal due to adverse effects, and dependency concerns) means that strong opioids typically are recommended as third-line treatments for neuropathic pain [@Finnerup2015; @Attal2010; @NICE2013]. Thus, the majority of the 104 low and middle income countries' essential medicine lists had a very limited scope of first- and second-line treatments for neuropathic pain. This limitation is counter to WHO Resolution EB134.R7 of 2014 [@WHO2014], which urges member states to ensure, _“the availability of essential medicines for the management of symptoms, including pain,”_, as well as the United Nations Sustainable Development Goal 3.8 which advocates for, _“access to safe, effective, quality and affordable essential medicines and vaccines for all”_ [@UN_SDG2015; @Wirtz2016]. 
 
 \begin{figure}[!htbp]
 \centering
