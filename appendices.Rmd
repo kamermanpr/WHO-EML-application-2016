@@ -7,6 +7,7 @@ output:
 ---
 <!-- Title page -->
 \section*{}
+\pagenumbering{gobble}
 \begin{center}
 
 \LARGE{\textbf{Appendix 1}}
@@ -15,18 +16,42 @@ output:
 \large{\textbf{Organizations supporting the application}}\\
 \vspace{5mm}
 
+\end{center}
 
-\textbf{Includes}\\
+\textbf{Includes}
     \begin{enumerate}
         \item{International Society of Physical and Rehabilitation Medicine (ISPRM)}
         \item{World Federation of Societies of Anaesthesiology (WFSA)}
         \item{World Medical Association (WMA)}
         \item{National Chapters of the International Association for the Study of Pain}
+            \begin{itemize}
+                \item{Asociación Chilena para el Estudio del Dolor [Chile]}
+                \item{Asociacion Dominicana para el Estudio y Tratamiento del Dolor y Cuidados Paliativos [Dominican Repuplic]}
+                \item{Asociación Istmeña para el Estudio del Dolor [Panama]}
+                \item{Australian Pain Society}
+                \item{Bangladesh Society for Study of Pain}
+                \item{Belgian Pain Society}
+                \item{British Pain Society}
+                \item{Chinese Association for the Study of Pain}
+                \item{Croatian Pain Society}
+                \item{Dutch Pain Society}
+                \item{Hong Kong Pain Society}
+                \item{Indian Society for Study of Pain}
+                \item{Iranian Pain Society}
+                \item{Irish Pain Society}
+                \item{Lebanese Society for the Study of Pain} 
+                \item{Malaysian Association for the Study of Pain}
+                \item{Österreichische Schmerzgesellschaft [Austria]}
+                \item{Pain Society of the Philippines}
+                \item{PainSA [South Africa]}
+                \item{Professional Health Association – Pain Section, Kosovo}
+                \item{Saudi Society of Pain Medicine}
+                \item{Serbian Pain Association of Pain Research and Treatment}
+                \item{Society for the Study of Pain, Nigeria}
+                \item{Sri Lanka Association for the Study of Pain}
+                \item{Thai Association for the Study of Pain}
+            \end{itemize}
     \end{enumerate}
-\vspace{5mm}
-\textbf{Page count: 4}\\
-
-\end{center}
 
 <!-- body -->
 \newpage
