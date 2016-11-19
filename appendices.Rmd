@@ -26,7 +26,7 @@ output:
 \newpage
 \pagenumbering{gobble}
 
-<!--\includepdf[pages=-]{./other/XXXXX.pdf}-->
+\includepdf[pages=-]{./appendix-files/isprm.pdf}
 
 
 <!-- Title page -->
