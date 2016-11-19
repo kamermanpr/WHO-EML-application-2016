@@ -17,8 +17,14 @@ output:
 
 
 \textbf{Includes}\\
+    \begin{enumerate}
+        \item{International Society of Physical and Rehabilitation Medicine (ISPRM)}
+        \item{World Federation of Societies of Anaesthesiology (WFSA)}
+        \item{World Medical Association (WMA)}
+        \item{National Chapters of the International Association for the Study of Pain}
+    \end{enumerate}
 \vspace{5mm}
-\textbf{Page count}\\
+\textbf{Page count: 4}\\
 
 \end{center}
 
