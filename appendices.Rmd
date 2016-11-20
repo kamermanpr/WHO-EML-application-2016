@@ -59,6 +59,10 @@ output:
 
 \includepdf[pages=-]{./appendix-files/isprm.pdf}
 
+\newpage
+\pagenumbering{gobble}
+
+\includepdf[pages=-]{./appendix-files/wma.pdf}
 
 <!-- Title page -->
 \section*{}
