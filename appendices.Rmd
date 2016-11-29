@@ -25,7 +25,7 @@ output:
         \begin{itemize}
             \item{American Pain Society}
             \item{Asociación Chilena para el Estudio del Dolor [Chile]}
-            \item{Asociacion Dominicana para el Estudio y Tratamiento del Dolor y Cuidados Paliativos [Dominican Repuplic]}
+            \item{Asociacion Dominicana para el Estudio y Tratamiento del Dolor y Cuidados Paliativos [Dominican Republic]}
             \item{Asociación Istmeña para el Estudio del Dolor [Panama]}
             \item{Australian Pain Society}
             \item{Bangladesh Society for Study of Pain}
