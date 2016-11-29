@@ -13,6 +13,8 @@ We are indebted to our four external reviewers for their constructive comments:
 - G Allen Finley (Canada)
 - Telesphore B Nguelefack (Cameroon)
 
+We also thank Dr Nicola Magrini, Secretary of the Expert Committee on the Selection and Use of Essential Medicines, for his assistance and constructive feedback. 
+
 ## Instructions 
 
 ### Download a complete copy
@@ -47,18 +49,20 @@ Follow the steps below to compile the application, appendices, and the executive
 4. Type _'make'_
 
 ## The following set-up was used to generate all files
-- R version 3.2.4 (2016-03-10) running on RStudio v0.99.1243 for OSX
+- R version 3.3.1 (2016-06-21) running on RStudio v1.0.44 for macOS Sierra
 - Packages used (inclusive of: _application.Rmd_, _appendices.Rmd_, _summary.Rmd_, and all other analysis scripts):
-    - ggplot2 2.1.0   
-    - scales 0.4.0
+    - cowplot 0.7.0
+    - dplyr 0.5.0
+    - ggplot2 2.2.0
     - gridExtra 2.2.1
-    - xtable 1.8-2
+    - knitr 1.15
     - pander 0.6.0
     - readr 1.0.0
-    - stringr_1.1.0
+    - rmeta 2.16
+    - scales 0.4.1
+    - stringr 1.1.0
     - tidyr 0.6.0
-    - tibble 1.2        
-    - dplyr 0.5.0
+    - xtable 1.8-2
     
 ## License
 
