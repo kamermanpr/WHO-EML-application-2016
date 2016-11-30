@@ -37,9 +37,23 @@
 <p>This repository contains all the files required to generate the application (and supporting documents) the International Association for the Study of Pain (IASP) and the International Association of Hospice and Palliative Care (IAHPC) made to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines (2017) for the inclusion of gabapentin on the WHO Model List of Essential Medicines for the treatment of neuropathic pain. </p>
 
 <h2>
-<a id="bibliometric-information" class="anchor" href="#bibliometric-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bibliometric information</h2>
+<a id="citation" class="anchor" href="#citation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citation</h2>
 
 <p>Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: <a href="http://dx.doi.org/10.6084/m9.figshare.3814206.v2">10.6084/m9.figshare.3814206.v2</a>, 2016</p>
+
+<h2>
+<a id="acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgements</h2>
+
+<p>We are indebted to our four external reviewers for their constructive comments:</p>
+
+<ul>
+<li>Michael I Bennett (UK)</li>
+<li>Daniel Ciampi de Andrada (Brazil)</li>
+<li>G Allen Finley (Canada)</li>
+<li>Telesphore B Nguelefack (Cameroon)</li>
+</ul>
+
+<p>We also thank Dr Nicola Magrini, Secretary of the Expert Committee on the Selection and Use of Essential Medicines, for his assistance and constructive feedback. </p>
 
 <h2>
 <a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instructions</h2>
@@ -58,10 +72,10 @@
 <a id="if-you-use-gitgithub" class="anchor" href="#if-you-use-gitgithub" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>If you use Git/GitHub:</h4>
 
 <ol>
-<li><p><em>Fork</em> the repository to your GitHub account </p></li>
-<li><p><em>Clone</em> the repository to your computer </p></li>
-<li><p>Open a <em>terminal</em> (Windows users should open a <em>Git Bash</em> terminal) and change the path to the root directory of the respository  </p></li>
-<li><p>Type <em>'make'</em> (Windows users will need to download and install <a href="http://gnuwin32.sourceforge.net/downlinks/make.php"><em>GNU Make</em></a> beforehand)  </p></li>
+<li><p><em>Fork</em> the repository to your GitHub account. </p></li>
+<li><p><em>Clone</em> the repository to your computer. </p></li>
+<li><p>Open a <em>terminal</em> (Windows users should open a <em>Git Bash</em> terminal) and change the path to the root directory of the respository.  </p></li>
+<li><p>Type <em>'make'</em> (Windows users will need to download and install <a href="http://gnuwin32.sourceforge.net/downlinks/make.php"><em>GNU Make</em></a> beforehand).  </p></li>
 </ol>
 
 <h4>
@@ -73,36 +87,37 @@
 
 <ul>
 <li>
-<a href="https://github.com/git-for-windows/git/releases"><em>Git for Windows</em></a> or any other <em>Bash</em>-like shell for Windows</li>
-<li><a href="http://gnuwin32.sourceforge.net/downlinks/make.php"><em>GNU Make</em></a></li>
+<a href="https://github.com/git-for-windows/git/releases"><em>Git for Windows</em></a> or any other <em>Bash</em>-like shell for Windows.</li>
+<li>
+<a href="http://gnuwin32.sourceforge.net/downlinks/make.php"><em>GNU Make</em></a>.</li>
 </ul>
 </li>
-<li><p><em>Download</em> the respository as a zip file </p></li>
-<li><p><em>Unzip</em> the repository on your computer </p></li>
-<li><p>Open a <em>terminal</em> and change the path to the root directory of the respository</p></li>
-<li><p>Type <em>'make'</em></p></li>
+<li><p><em>Download</em> the respository as a zip file. </p></li>
+<li><p><em>Unzip</em> the repository on your computer. </p></li>
+<li><p>Open a <em>terminal</em> and change the path to the root directory of the respository.</p></li>
+<li><p>Type <em>'make'</em> (Windows users will need to download and install <a href="http://gnuwin32.sourceforge.net/downlinks/make.php"><em>GNU Make</em></a> beforehand).  </p></li>
 </ol>
 
 <h2>
 <a id="the-following-set-up-was-used-to-generate-all-files" class="anchor" href="#the-following-set-up-was-used-to-generate-all-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The following set-up was used to generate all files</h2>
 
 <ul>
-<li>R version 3.2.4 (2016-03-10) running on RStudio v0.99.1243 for OSX</li>
+<li>R version 3.3.1 (2016-06-21) running on RStudio v1.0.44 for macOS Sierra</li>
 <li>Packages used (inclusive of: <em>application.Rmd</em>, <em>appendices.Rmd</em>, <em>summary.Rmd</em>, and all other analysis scripts):
 
 <ul>
-<li>ggplot2 2.1.0<br>
-</li>
-<li>scales 0.4.0</li>
+<li>cowplot 0.7.0</li>
+<li>dplyr 0.5.0</li>
+<li>ggplot2 2.2.0</li>
 <li>gridExtra 2.2.1</li>
-<li>xtable 1.8-2</li>
+<li>knitr 1.15</li>
 <li>pander 0.6.0</li>
 <li>readr 1.0.0</li>
-<li>stringr_1.1.0</li>
+<li>rmeta 2.16</li>
+<li>scales 0.4.1</li>
+<li>stringr 1.1.0</li>
 <li>tidyr 0.6.0</li>
-<li>tibble 1.2<br>
-</li>
-<li>dplyr 0.5.0</li>
+<li>xtable 1.8-2</li>
 </ul>
 </li>
 </ul>
