@@ -13,7 +13,7 @@ We are indebted to our four external reviewers for their constructive comments:
 - G Allen Finley (Canada)
 - Telesphore B Nguelefack (Cameroon)
 
-We also thank Dr Nicola Magrini, Secretary of the Expert Committee on the Selection and Use of Essential Medicines, for his assistance and constructive feedback. 
+We also thank Dr Nicola Magrini (Secretary of the Expert Committee on the Selection and Use of Essential Medicines) and Dr Tarun Dua (Department of Mental Health and Substance Abuse) for their assistance and constructive feedback. 
 
 ## Instructions 
 
@@ -40,7 +40,7 @@ Follow the steps below to compile the application, appendices, and the executive
     - [_Git for Windows_](https://github.com/git-for-windows/git/releases) or any other _Bash_-like shell for Windows.
     - [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php).
 
-2. _Download_ the respository as a zip file. 
+2. _Download_ the repository as a zip file. 
 
 2. _Unzip_ the repository on your computer. 
 
