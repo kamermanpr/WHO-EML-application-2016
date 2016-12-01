@@ -30,8 +30,10 @@ Click on this [link](https://dl.dropboxusercontent.com/u/11805474/painblogr/neur
 Follow the steps below to compile the application, appendices, and the executive summary.
 
 Windows users must first download and install:
-    - [_Git for Windows_](https://github.com/git-for-windows/git/releases) or any other _Bash_-like shell for Windows.
-    - [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php).
+
+- [_Git for Windows_](https://github.com/git-for-windows/git/releases) or any other _Bash_-like shell for Windows.
+
+- [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php).
 
 #### If you use Git/GitHub: 
 1. _Fork_ the repository to your GitHub account. 
