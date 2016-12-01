@@ -29,28 +29,28 @@ Click on this [link](https://dl.dropboxusercontent.com/u/11805474/painblogr/neur
 
 Follow the steps below to compile the application, appendices, and the executive summary.
 
+Windows users must first download and install:
+    - [_Git for Windows_](https://github.com/git-for-windows/git/releases) or any other _Bash_-like shell for Windows.
+    - [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php).
+
 #### If you use Git/GitHub: 
 1. _Fork_ the repository to your GitHub account. 
 
 2. _Clone_ the repository to your computer. 
 
-3. Open a _terminal_ (Windows users should open a _Git Bash_ terminal) and change the path to the root directory of the respository.  
+3. Open a _terminal_ and change the path to the directory of the respository.  
 
-4. Type _'make'_ (Windows users will need to download and install [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php) beforehand).  
+4. Type _'make'_.  
 
- 
 #### If you do not use Git/GitHub:
-1. Windows users must download and install:
-    - [_Git for Windows_](https://github.com/git-for-windows/git/releases) or any other _Bash_-like shell for Windows.
-    - [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php).
 
-2. _Download_ the repository as a zip file. 
+1. _Download_ the repository as a zip file. 
 
 2. _Unzip_ the repository on your computer. 
 
-3. Open a _terminal_ and change the path to the root directory of the respository.
+3. Open a _terminal_ and change the path to the directory you unzipped the repository into.
 
-4. Type _'make'_ (Windows users will need to download and install [_GNU Make_](http://gnuwin32.sourceforge.net/downlinks/make.php) beforehand).  
+4. Type _'make'_.  
 
 ## The following set-up was used to generate all files
 - R version 3.3.1 (2016-06-21) running on RStudio v1.0.44 for macOS Sierra
