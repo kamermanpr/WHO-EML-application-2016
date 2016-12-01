@@ -3,6 +3,10 @@
 ## About
 This repository contains all the files required to generate the application (and supporting documents) the International Association for the Study of Pain (IASP) and the International Association of Hospice and Palliative Care (IAHPC) made to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines (2017) for the inclusion of gabapentin on the WHO Model List of Essential Medicines for the treatment of neuropathic pain. 
 
+For a brief summary of why we have applied for the inclusion of an additional medicine to treat neuropathic pain on the WHO Model List, see:
+- [Neuropathic pain: so many people, but where are the drugs?](http://painblogr.org/neuropathic-pain-storyboard-2016/)
+- World Health Organization essential medicines lists: where are the drugs to treat neuropathic pain? _PAIN_ **156**:793-797, 2015. DOI: [10.1097/01.j.pain.0000460356.94374.a1](http://dx.doi.org/10.1097/01.j.pain.0000460356.94374.a1), PMC: [4670621](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4670621/pdf/nihms701453.pdf)
+
 ## Citation
 Kamerman PR, Finnerup NB, De Lima L, Haroutounian S, Raja SN, Rice ASC, Smith BH, Treede RD. Gabapentin for neuropathic pain: An application to the 21st meeting of the WHO Expert Committee on Selection and Use of Essential Medicines for the inclusion of gabapentin on the WHO Model List of Essential Medicines. DOI: [10.6084/m9.figshare.3814206.v2](http://dx.doi.org/10.6084/m9.figshare.3814206.v2), 2016
 
@@ -19,7 +23,7 @@ We also thank Dr Nicola Magrini (Secretary of the Expert Committee on the Select
 
 ### Download a complete copy
 
-Click on this [link](https://dl.dropboxusercontent.com/u/11805474/painblogr/neuropathic-pain-storyboard-2016/eml-application.pdf) to access a compiled version of the document.
+Click on this [link](https://dl.dropboxusercontent.com/u/11805474/painblogr/neuropathic-pain-storyboard-2016/eml-application.pdf) to access a PDF of the complete document (application and appendices).
 
 ### Build the document
 
