@@ -42,6 +42,7 @@ output:
             \item{Lebanese Society for the Study of Pain} 
             \item{Lithuanian Pain Society}
             \item{Malaysian Association for the Study of Pain}
+            \item{New Zealand Pain Society}
             \item{Österreichische Schmerzgesellschaft [Austria]}
             \item{Pain Society of the Philippines}
             \item{PainSA [South Africa]}
